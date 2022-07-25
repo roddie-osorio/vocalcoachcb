@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.barra-navegacion {
+  background-color: #6610f2; }
+
+.col-md-6 {
+  background-color: #6610f2;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .col-md-6 a {
+    color: #fff;
+    color: #fff;
+    font-size: 35px;
+    text-decoration: none; }
+    .col-md-6 a:hover {
+      color: #d6047f;
+      transition: 0.5s;
+      text-shadow: 0 0 3px #f78ac9,
+ 0 0 15px #f78ac9,
+ 0 0 45px #f78ac9; }
