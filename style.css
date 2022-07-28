@@ -10,8 +10,13 @@ body{
 
 /*INICIO DEL HEADER DE TODAS LAS PAGINAS*/
 
+.navbar{
+    height: 95px;
+}
+
+
 .barra-navegacion{
-    background-color: #6610f2;
+    background-color: #4305a8;
 }
 
 .navbar-brand {
@@ -96,7 +101,7 @@ body{
 /*INCIO DE LAS SECCIONES ACERCA Y METODO DEL INDEX*/
 
 .col-md-6{
-    background-color: #6610f2;
+    background-color: #4305a8;
     height: 350px;
     display: flex;
     align-items: center;
@@ -124,7 +129,7 @@ body{
 /*INICIO FOOTER*/
 
 .col-md-12{
-    background-color:#6610f2;
+    background-color:#4305a8;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -166,12 +171,10 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-   
-    
 }
 
 .hola-acerca{
-    color:  #6610f2;
+    color:  #4305a8;
     font-size: 60px;
     font: bold;
     font-weight: 200;
@@ -195,7 +198,7 @@ body{
 }
 
 .presentacion-acerca{
-    color: #6610f2;
+    color: #4305a8;
     font-size: 30px;
     margin: 100px;
     font:bold;
@@ -212,7 +215,7 @@ body{
 
 .conoce-mas-acerca a{
     font-size: 30px;
-    color: #6610f2;
+    color: #4305a8;
     text-decoration: none;
     font: bold;
     margin-left: 400px;
@@ -248,7 +251,7 @@ body{
 /*DEFINO EL GRID PAGINA METODO*/
 
 .col-md-12{
-    background-color:#6610f2;
+    background-color:#4305a8;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -280,7 +283,7 @@ body{
 }
 
 .contactame-metodo{
-    background-color:#6610f2;
+    background-color:#4305a8;
     display: flex;
     align-items: center;
     justify-content: right;
@@ -341,6 +344,7 @@ body{
     margin-left: 6rem;
     margin-bottom: 5rem;
     flex-direction: column;
+    min-height: 70vh;
 }
 
 .head-contacto{
