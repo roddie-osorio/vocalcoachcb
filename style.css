@@ -34,7 +34,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: end;
-    color: rgb(250, 8, 177);
+    color: rgb(253, 99, 207);
 }
 
 /*FIN DEL HEADER*/
@@ -46,7 +46,7 @@ body{
 }
 
 .hola{
-    color: #d6047f;
+    color: rgb(253, 99, 207);
     font-size: 55px;
     font: bold;
     margin: 30px;
@@ -82,18 +82,18 @@ body{
 
 .conoce-mas a{
     font-size: 30px;
-    color: #d40a80;
+    color:rgb(253, 99, 207);
     text-decoration: none;
     font: bold;
     margin: 30px;
 }
 
 .conoce-mas a:hover{
-    color: #fc0b98;
+    color:rgb(253, 99, 207);
     transition: 0.5s;
-    text-shadow: 0 0 7px #fc0b98,
-                0 0 30px #fc0b98,
-                0 0 80px #fc0b98;
+    text-shadow: 0 0 7px rgb(253, 99, 207),
+                0 0 30px rgb(253, 99, 207),
+                0 0 80px rgb(253, 99, 207);
 }
 
 /*FIN DE LA SECCION HOLA DEL INDEX*/
@@ -116,7 +116,7 @@ body{
 }
 
 .col-md-6 a:hover{
-    color: #d6047f;
+    color: rgb(253, 99, 207);
     transition: 0.5s;
     text-shadow: 0 0 3px #f78ac9,
                 0 0 15px #f78ac9,
@@ -223,11 +223,11 @@ body{
 }
 
 .conoce-mas-acerca a:hover{
-    color: #fc0b98;
+    color: rgb(253, 99, 207);
     transition: 0.5s;
-    text-shadow: 0 0 7px #fc0b98,
-                0 0 30px #fc0b98,
-                0 0 80px #fc0b98;
+    text-shadow: 0 0 7px rgb(253, 99, 207),
+                0 0 30px rgb(253, 99, 207),
+                0 0 80px rgb(253, 99, 207);
 }
 
 .col-md-5{
@@ -262,7 +262,7 @@ body{
 
 .rabine{
     margin-top:100px;
-    color:#fc0b98;
+    color:rgb(253, 99, 207);
     font-size: 45px;
     font: bold;
     font-weight: 200;
@@ -300,11 +300,11 @@ body{
 
 
 .contactame-metodo a:hover{
-    color: #fc0b98;
+    color: rgb(253, 99, 207);
     transition: 0.5s;
-    text-shadow: 0 0 7px #fc0b98,
-                0 0 30px #fc0b98,
-                0 0 80px #fc0b98;
+    text-shadow: 0 0 7px rgb(253, 99, 207),
+                0 0 30px rgb(253, 99, 207),
+                0 0 80px rgb(253, 99, 207);
 }
 
 /*FIN PAGINA METODO*/
@@ -314,7 +314,7 @@ body{
 
 .imagenes{
     margin-top:100px;
-    color:#fc0b98;
+    color:rgb(253, 99, 207);
     font-size: 45px;
     font: bold;
     font-weight: 200;
@@ -349,7 +349,7 @@ body{
 
 .head-contacto{
     margin-top:100px;
-    color:#fc0b98;
+    color:rgb(253, 99, 207);
     font-size: 45px;
     font: bold;
     font-weight: 200;
@@ -379,7 +379,7 @@ body{
 
 .text-box{
     background: #320146;
-    color: #d6047f;
+    color: rgb(253, 99, 207);
     border: none;
     height: 50px;
     padding: 12px;
@@ -392,7 +392,7 @@ body{
 
 .text-message{
     background: #320146;
-    color: #d6047f;
+    color: rgb(253, 99, 207);
     border: none;
     width: 100%;
     padding: 12px;
@@ -408,7 +408,7 @@ body{
 .send-btn {
     float: right;
     background: #320146;
-    color:#d6047f;
+    color:rgb(253, 99, 207);
     border: none;
     width: 120px;
     height: 40px;
