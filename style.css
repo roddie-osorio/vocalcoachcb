@@ -41,7 +41,7 @@ body{
 
 /*INCIO SECCION HOLA INDEX*/
 .col-md-12{
-    background-color: #edddf3;
+    background-color: #FFF;
     
 }
 
@@ -166,7 +166,7 @@ body{
 /*INICIO GRID PAGINA ACERCA*/
 
 .col-md-7{
-    background-color:#ebe8f0;
+    background-color:#fff;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -231,7 +231,7 @@ body{
 }
 
 .col-md-5{
-    background-color:#ebe8f0;
+    background-color:#fff;
 }
 
 .foto-acerca{
