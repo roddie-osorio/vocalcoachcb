@@ -1,0 +1,22 @@
+.hola{
+    @include mediaQuery("mobile"){
+        font-size: 40px;
+        margin: 15px;
+    }
+    @include mediaQuery("tablet"){
+        font-size:50px;
+        margin: 25px;
+    }
+}
+
+.nombre{
+    @include mediaQuery("mobile"){
+        font-size: 20px;
+        margin: 15px;
+    }
+    @include mediaQuery("tablet"){
+        font-size: 30px;
+        margin: 25px;
+    }
+}
+
