@@ -41,7 +41,7 @@ body {
 
 
 .col-md-12 {
-	background-color: #4305a8;
+	background-color:($colores, "color-primario");
 }
 .hola {
 	color: map-get($colores, "color-secundario");
