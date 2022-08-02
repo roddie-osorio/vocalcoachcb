@@ -9,20 +9,30 @@ body {
 .navbar {
   height: 95px; }
 
+.barra-navegacion {
+  background-color: #4305a8; }
+
 .navbar-brand {
+  color: #fff;
   font-size: 28px; }
 
 .navbar-nav a {
+  color: #fff;
   font-size: 28px;
   margin-left: 3rem; }
   .navbar-nav a:hover {
     display: flex;
     align-items: center;
-    justify-content: end; }
+    justify-content: end;
+    color: #fd63cf; }
 
 /*FIN DEL HEADER*/
 /*INCIO SECCION HOLA INDEX*/
+.col-md-12 {
+  background-color: #4305a8; }
+
 .hola {
+  color: #fd63cf;
   font-size: 55px;
   font: bold;
   margin: 30px;
@@ -54,6 +64,7 @@ body {
     margin-left: 30px; } }
 
 .nombre {
+  color: #fff;
   font-size: 35px;
   margin: 30px; }
 
@@ -63,30 +74,36 @@ body {
   justify-content: right; }
   .conoce-mas a {
     font-size: 30px;
+    color: #fd63cf;
     text-decoration: none;
     font: bold;
     margin: 30px; }
     .conoce-mas a:hover {
+      color: #fd63cf;
       transition: 0.5s;
       text-shadow: 0 0 7px #fd63cf, 0 0 30px #fd63cf, 0 0 80px #fd63cf; }
 
 /*FIN DE LA SECCION HOLA DEL INDEX*/
 /*INCIO DE LAS SECCIONES ACERCA Y METODO DEL INDEX*/
 .col-md-6 {
+  background-color: #4305a8;
   height: 350px;
   display: flex;
   align-items: center;
   justify-content: center; }
   .col-md-6 a {
+    color: #fd63cf;
     font-size: 35px;
     text-decoration: none; }
     .col-md-6 a:hover {
+      color: #fd63cf;
       transition: 0.5s;
       text-shadow: 0 0 3px #f78ac9, 0 0 15px #f78ac9, 0 0 45px #f78ac9; }
 
 /*FIN DE LAS SECCIONES ACERCA Y METODO DEL INDEX*/
 /*INICIO FOOTER*/
 .col-md-12 {
+  background-color: #4305a8;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -94,9 +111,11 @@ body {
 
 .copyright {
   font-size: 20px;
+  color: #fd63cf;
   margin-bottom: 18px; }
 
 .iconos i {
+  color: #fff;
   font-size: 65px;
   line-height: 65px;
   padding: 1.5rem; }
@@ -112,12 +131,14 @@ body {
 /*FIN FOTO CRISTINA DEL INDEX*/
 /*INICIO GRID PAGINA ACERCA*/
 .col-md-7 {
+  background-color: #4305a8;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column; }
 
 .hola-acerca {
+  color: #fd63cf;
   font-size: 60px;
   font: bold;
   font-weight: 200;
@@ -150,11 +171,11 @@ body {
     margin-left: 30px; } }
 
 .presentacion-acerca {
+  color: #fff;
   font-size: 30px;
   margin: 100px;
   font: bold;
-  line-height: 80px;
-  text-shadow: #460129; }
+  line-height: 80px; }
 
 .conoce-mas-acerca {
   display: flex;
@@ -162,13 +183,18 @@ body {
   justify-content: right; }
   .conoce-mas-acerca a {
     font-size: 30px;
+    color: #fd63cf;
     text-decoration: none;
     font: bold;
     margin-left: 400px;
     margin-bottom: 100px; }
     .conoce-mas-acerca a:hover {
+      color: #fd63cf;
       transition: 0.5s;
       text-shadow: 0 0 7px #fd63cf, 0 0 30px #fd63cf, 0 0 80px #fd63cf; }
+
+.col-md-5 {
+  background-color: #4305a8; }
 
 .foto-acerca {
   background-size: cover;
@@ -183,14 +209,16 @@ body {
 /*FIN GRID PAGINA ACERCA*/
 /*DEFINO EL GRID PAGINA METODO*/
 .col-md-12 {
+  background-color: #4305a8;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   height: 100%; }
 
-rabine {
+.rabine {
   margin-top: 100px;
+  color: #fd63cf;
   font-size: 45px;
   font: bold;
   font-weight: 200;
@@ -200,6 +228,7 @@ rabine {
   justify-content: center; }
 
 .metodo-cuerpo {
+  color: #fff;
   font-size: 25px;
   font: bold;
   line-height: 80px;
@@ -207,14 +236,17 @@ rabine {
   margin-right: 100px; }
 
 .contactame-metodo {
+  background-color: #4305a8;
   display: flex;
   align-items: center;
   justify-content: right; }
   .contactame-metodo a {
     font-size: 30px;
+    color: #fff;
     text-decoration: none;
     font: bold; }
     .contactame-metodo a:hover {
+      color: #fd63cf;
       transition: 0.5s;
       text-shadow: 0 0 7px #fd63cf, 0 0 30px #fd63cf, 0 0 80px #fd63cf; }
 
@@ -222,6 +254,7 @@ rabine {
 /*DEFINO EL GRID DE LA PAGINA MEDIA*/
 .imagenes {
   margin-top: 100px;
+  color: #fd63cf;
   font-size: 45px;
   font: bold;
   font-weight: 200;
@@ -248,8 +281,9 @@ rabine {
   flex-direction: column;
   min-height: 70vh; }
 
-head-contacto {
+.head-contacto {
   margin-top: 100px;
+  color: #fd63cf;
   font-size: 45px;
   font: bold;
   font-weight: 200;
@@ -257,10 +291,12 @@ head-contacto {
 
 .ubicacion {
   font-size: 25px;
+  color: #fd63cf;
   margin-bottom: 18px; }
 
 .horario {
   font-size: 25px;
+  color: #fff;
   margin-bottom: 18px; }
 
 .formulario-contacto {
@@ -272,6 +308,8 @@ head-contacto {
   font-size: 25px; }
 
 .text-box {
+  background: #30011e;
+  color: #fd63cf;
   border: none;
   height: 50px;
   padding: 12px;
@@ -282,6 +320,8 @@ head-contacto {
   opacity: 0.9; }
 
 .text-message {
+  background: #30011e;
+  color: #fd63cf;
   border: none;
   width: 100%;
   padding: 12px;
@@ -292,8 +332,10 @@ head-contacto {
   opacity: 0.9;
   max-height: 400px; }
 
-send-btn {
+.send-btn {
   float: right;
+  background: #30011e;
+  color: #fd63cf;
   border: none;
   width: 120px;
   height: 40px;
@@ -305,8 +347,27 @@ send-btn {
   transition: 0.5s;
   transition-property: background;
   cursor: pointer; }
-  send-btn:hover {
+  .send-btn:hover {
     background: #dc89f5;
     box-shadow: 0 0 5px #dc89f5, 0 0 20px #dc89f5, 0 0 60px #dc89f5; }
 
 /*FIN DE LA PAGINA CONTACTO*/
+@media screen and (max-width: 320px) {
+  .hola {
+    font-size: 40px;
+    margin: 15px; } }
+
+@media screen and (max-width: 720px) {
+  .hola {
+    font-size: 50px;
+    margin: 25px; } }
+
+@media screen and (max-width: 320px) {
+  .nombre {
+    font-size: 20px;
+    margin: 15px; } }
+
+@media screen and (max-width: 720px) {
+  .nombre {
+    font-size: 30px;
+    margin: 25px; } }

@@ -41,7 +41,7 @@ body {
 
 
 .col-md-12 {
-	background-color: map-get($colores, "color-terciario");
+	background-color: #4305a8;
 }
 .hola {
 	color: map-get($colores, "color-secundario");
@@ -117,13 +117,13 @@ body {
 /*INCIO DE LAS SECCIONES ACERCA Y METODO DEL INDEX*/
 
 .col-md-6 {
-	background-color: map-get($colores, "color-primario");
+	background-color: #4305a8;
 	height: 350px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	a {
-		color: map-get($colores, "color-terciario");
+		color: map-get($colores, "color-secundario");
 		font-size: 35px;
 		text-decoration: none;
 		&:hover {
@@ -139,7 +139,7 @@ body {
 /*INICIO FOOTER*/
 
 .col-md-12 {
-	background-color: map-get($colores, "color-primario");
+	background-color: #4305a8;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -172,14 +172,14 @@ body {
 /*INICIO GRID PAGINA ACERCA*/
 
 .col-md-7 {
-	background-color: map-get($colores, "color-terciario");
+	background-color:#4305a8;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
 }
 .hola-acerca {
-	color: map-get($colores, "color-primario");
+	color: map-get($colores, "color-secundario");
 	font-size: 60px;
 	font: bold;
 	font-weight: 200;
@@ -225,12 +225,11 @@ body {
 }
 
 .presentacion-acerca {
-	color: map-get($colores, "color-primario");
+	color: map-get($colores, "color-terciario");
 	font-size: 30px;
 	margin: 100px;
 	font: bold;
 	line-height: 80px;
-	text-shadow: #460129;
 }
 .conoce-mas-acerca {
 	display: flex;
@@ -238,7 +237,7 @@ body {
 	justify-content: right;
 	a {
 		font-size: 30px;
-		color: map-get($colores, "color-primario");
+		color: map-get($colores, "color-secundario");
 		text-decoration: none;
 		font: bold;
 		margin-left: 400px;
@@ -251,7 +250,7 @@ body {
 	}
 }
 .col-md-5 {
-	background-color: map-get($colores, "color-terciario");
+	background-color:#4305a8;
 }
 .foto-acerca {
 	background-size: cover;
@@ -268,7 +267,7 @@ body {
 /*DEFINO EL GRID PAGINA METODO*/
 
 .col-md-12 {
-	background-color: map-get($colores, "color-primario");
+	background-color: #4305a8;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -296,7 +295,7 @@ body {
 }
 
 .contactame-metodo {
-	background-color: map-get($colores, "color-primario");
+	background-color: #4305a8;
 	display: flex;
 	align-items: center;
 	justify-content: right;
@@ -347,7 +346,7 @@ body {
 	flex-direction: column;
 	min-height: 70vh;
 }
-head-contacto {
+.head-contacto {
 	margin-top: 100px;
 	color: map-get($colores, "color-secundario");
 	font-size: 45px;
@@ -374,8 +373,8 @@ head-contacto {
 	font-size: 25px;
 }
 .text-box {
-	background: map-get($colores, "color-primario");
-	color: map-get($colores, "color-secundario");
+	background: #30011e;
+	color:map-get($colores, "color-secundario");
 	border: none;
 	height: 50px;
 	padding: 12px;
@@ -386,8 +385,8 @@ head-contacto {
 	opacity: 0.9;
 }
 .text-message {
-	background: map-get($colores, "color-primario");
-	color: map-get($colores, "color-secundario");
+	background: #30011e;
+	color:map-get($colores, "color-secundario");
 	border: none;
 	width: 100%;
 	padding: 12px;
@@ -399,10 +398,10 @@ head-contacto {
 	max-height: 400px;
 }
 
-send-btn {
+.send-btn {
 	float: right;
-	background: map-get($colores, "color-primario");
-	color: map-get($colores, "color-secundario");
+	background: #30011e;
+	color:map-get($colores, "color-secundario");
 	border: none;
 	width: 120px;
 	height: 40px;
