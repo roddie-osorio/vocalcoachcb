@@ -4,12 +4,12 @@
 	justify-content: right;
 	a {
 		font-size: 15px;
-		color: map-get($colores, "color-secundario");
+		color:$colorSecundario;
 		text-decoration: none;
 		font: bold;
 		margin: 30px;
 		&:hover {
-			color: map-get($colores, "color-secundario");
+			color:$colorSecundario;
 			transition: 0.5s;
 		text-shadow: 0 0 7px rgb(253, 99, 207), 0 0 30px rgb(253, 99, 207), 0 0    80px rgb(253, 99, 207);
 		}

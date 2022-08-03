@@ -98,7 +98,7 @@ body {
 
 .conoce-mas {
 	@extend %conoce;
-	font-size: 25px;
+	font-size: 35px;
 }
 
 /*FIN DE LA SECCION HOLA DEL INDEX*/
@@ -168,6 +168,7 @@ body {
 	font-size: 25px;
 	font: bold;
 	line-height: 80px;
+	margin: 30px;
 }
 .conoce-mas-acerca {
 	@extend %conoce;
@@ -179,7 +180,7 @@ body {
 	background-size:cover;
 	margin-top: 30px;
 	margin-right: 5px;
-	width: 45%;
+	width: 85%;
 	height: auto;
 	clip-path: circle();
 	@include caja-flex(flex, center, center);
@@ -287,7 +288,7 @@ body {
 	font-size: 25px;
 }
 .text-box {
-	background:$colorPrincipal;
+	background:rgb(48, 1, 75);
 	color:$colorSecundario;
 	border: none;
 	height: 50px;
@@ -299,7 +300,7 @@ body {
 	opacity: 0.9;
 }
 .text-message {
-	background:$colorPrincipal;
+	background:rgb(48, 1, 75);
 	color:$colorSecundario;
 	border: none;
 	width: 100%;
@@ -314,7 +315,7 @@ body {
 
 .send-btn {
 	float: right;
-	background:$colorPrincipal;
+	background:rgb(48, 1, 75);
 	color:$colorSecundario;
 	border: none;
 	width: 120px;
