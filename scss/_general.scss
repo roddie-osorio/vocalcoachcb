@@ -96,22 +96,9 @@ body {
 }
 
 
-.conoce-mas-index {
-	display: flex;
-	align-items: center;
-	justify-content: right;
-	a {
-		font-size: 15px;
-		color: map-get($colores, "color-secundario");
-		text-decoration: none;
-		font: bold;
-		margin: 30px;
-		&:hover {
-			color: map-get($colores, "color-secundario");
-			transition: 0.5s;
-		text-shadow: 0 0 7px rgb(253, 99, 207), 0 0 30px rgb(253, 99, 207), 0 0    80px rgb(253, 99, 207);
-		}
-	}
+.conoce-mas {
+	@extend %conoce;
+	font-size: 25px;
 }
 
 /*FIN DE LA SECCION HOLA DEL INDEX*/
