@@ -1,0 +1,22 @@
+@media(min-width: 576px){
+    .hola, .nombre, .conoce-mas {
+        font-size: 25px;
+        margin: 5px;
+    }
+    .foto-acerca{
+        background-image: 0%;
+    }
+
+}
+
+@media(min-width: 768px){
+    .hola, .nombre, .conoce-mas {
+        font-size: 35px;
+        margin: 15px;
+    }
+    .foto-acerca{
+        background-image: 50%;
+    }
+
+
+}

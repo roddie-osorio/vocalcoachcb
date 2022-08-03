@@ -1,0 +1,5 @@
+@mixin caja-flex($mostrar, $justificar, $alinear){
+    display: $mostrar;
+    justify-content: $justificar;
+    align-items: $alinear;
+}

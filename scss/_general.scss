@@ -108,9 +108,7 @@ body {
 .col-md-6 {
 	background-color: #4305a8;
 	height: 350px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+	@include caja-flex(flex, center, center);
 	a {
 		color: map-get($colores, "color-secundario");
 		font-size: 35px;
@@ -129,10 +127,9 @@ body {
 
 .col-md-12 {
 	background-color: #4305a8;
-	display: flex;
+	@include caja-flex(flex, center, center);
 	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+	
 }
 .copyright {
 	font-size: 15px;
@@ -162,9 +159,7 @@ body {
 
 .col-md-7 {
 	background-color:#4305a8;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+	@include caja-flex(flex, center, center);
 	flex-direction: column;
 }
 
@@ -175,36 +170,19 @@ body {
 	line-height: 80px;
 }
 .conoce-mas-acerca {
-	display: flex;
-	align-items: center;
-	justify-content: right;
-	a {
-		font-size: 15px;
-		color: map-get($colores, "color-secundario");
-		text-decoration: none;
-		font: bold;
-		margin-left: 400px;
-		margin-bottom: 100px;
-		&:hover {
-			color: map-get($colores, "color-secundario");
-			transition: 0.5s;
-			text-shadow: 0 0 7px rgb(253, 99, 207), 0 0 30px rgb(253, 99, 207), 0 0 80px rgb(253, 99, 207);
-		}
-	}
+	@extend %conoce;
 }
 .col-md-5 {
 	background-color:#4305a8;
 }
 .foto-acerca {
-	background-size: cover;
+	background-size:cover;
 	margin-top: 30px;
 	margin-right: 5px;
 	width: 45%;
 	height: auto;
 	clip-path: circle();
-	display: flex;
-	align-items: center;
-	justify-content: center;
+	@include caja-flex(flex, center, center);
 }
 /*FIN GRID PAGINA ACERCA*/
 
@@ -212,9 +190,7 @@ body {
 
 .col-md-12 {
 	background-color: #4305a8;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+	@include caja-flex(flex, center, center);
 	flex-direction: column;
 	height: 100%;
 }
@@ -225,9 +201,7 @@ body {
 	font: bold;
 	font-weight: 200;
 	letter-spacing: 0.5px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+	@include caja-flex(flex, center, center);
 }
 .metodo-cuerpo {
 	color: map-get($colores, "color-terciario");
@@ -265,9 +239,7 @@ body {
 	font: bold;
 	font-weight: 200;
 	letter-spacing: 0.5px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+	@include caja-flex(flex, center, center);
 }
 .galeria-imagenes {
 	display: flex;
@@ -309,9 +281,7 @@ body {
 	margin-bottom: 18px;
 }
 .formulario-contacto {
-	display: flex;
-	align-items: center;
-	justify-content: center;
+	@include caja-flex(flex, center, center);
 	flex-direction: column;
 	color: #fff;
 	font-size: 25px;
