@@ -63,7 +63,7 @@ body {
 .hola {
   color: #fd63cf;
   margin-top: 100px;
-  font-size: 45px;
+  font-size: clamp(32px, 4vw, 48px);
   font: bold;
   font-weight: 500;
   letter-spacing: 0.5px;
@@ -95,7 +95,7 @@ body {
 
 .nombre {
   color: #FFF;
-  font-size: 35px;
+  font-size: clamp(22px, 2vw, 24px);
   margin: 30px; }
 
 .conoce-mas {
