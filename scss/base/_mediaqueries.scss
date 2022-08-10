@@ -1,19 +1,118 @@
-@media(min-width: 576px){
-    .hola, .nombre, .conoce-mas {
+@media(max-width: 430px){
+    .hola, .rabine{
         font-size: 25px;
         margin: 5px;
+    } 
+    
+    .nombre, .acerca, .metodo {
+        font-size: 15px;
+        margin: 5px;
+    }
+    .conoce-mas, .metodo-cuerpo{
+        font-size: 10px;
+    }
+
+    .foto-acerca{
+        background-image: 0%;
+    }
+    .foto-index{
+        max-width: 22rem;
+        min-width: 22rem;
+    }
+}
+
+@media(min-width: 576px){
+    
+    .hola{
+        font-size: 30px;
+        margin: 10px;
+    } 
+    
+    .nombre, .acerca, .metodo {
+        font-size: 20px;
+        margin: 10px;
+    }
+
+    .conoce-mas, .metodo-cuerpo{
+        font-size: 10px;
     }
     .foto-acerca{
         background-image: 0%;
     }
+    .foto-index{
+        max-width: 30rem;
+        min-width: 30rem;
+    }
 }
 
 @media(min-width: 768px){
-    .hola, .nombre, .conoce-mas {
+    
+    .hola{
         font-size: 35px;
         margin: 15px;
+    } 
+    
+    .nombre, .acerca, .metodo {
+        font-size: 25px;
+        margin: 15px;
+    }
+
+    .conoce-mas,.metodo-cuerpo{
+        font-size: 15px;
     }
     .foto-acerca{
         background-image: 50%;
+    }
+    .foto-index{
+        max-width: 38rem;
+        min-width: 38rem;
+    }
+}
+
+
+@media(min-width: 940px){
+    
+    .hola{
+        font-size: 40px;
+        margin: 20px;
+    } 
+        
+    .nombre, .acerca, .metodo {
+        font-size: 30px;
+        margin: 20px;
+    }
+    .conoce-mas, .metodo-cuerpo{
+        font-size: 20px;
+    }
+
+    .foto-acerca{
+        background-image: 60%;
+    }
+    .foto-index{
+        max-width: 46rem;
+        min-width: 46rem;
+    }
+}
+
+
+@media(min-width: 1024px){
+    .hola {
+        font-size: 45px;
+        margin: 25px;
+    }
+    .nombre, .acerca, .metodo {
+        font-size: 35px;
+        margin: 25px;
+    }
+    .conoce-mas, .metodo-cuerpo{
+        font-size: 25px;
+    }
+
+    .foto-acerca{
+        background-image: 60%;
+    }
+    .foto-index{
+        max-width: 58rem;
+        min-width: 58rem;
     }
 }
