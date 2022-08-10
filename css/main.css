@@ -43,7 +43,7 @@ body {
 
 /*FIN DEL HEADER*/
 /*INCIO SECCION HOLA INDEX*/
-.col-md-12 {
+.col-lg-12 {
   background-color: #4305a8; }
 
 .hola {
@@ -86,24 +86,24 @@ body {
 
 /*FIN DE LA SECCION HOLA DEL INDEX*/
 /*INCIO DE LAS SECCIONES ACERCA Y METODO DEL INDEX*/
-.col-md-6 {
+.col-lg-6 {
   background-color: #4305a8;
   height: 350px;
   display: flex;
   justify-content: center;
   align-items: center; }
-  .col-md-6 a {
+  .col-lg-6 a {
     color: #fd63cf;
     font-size: 35px;
     text-decoration: none; }
-    .col-md-6 a:hover {
+    .col-lg-6 a:hover {
       color: #fd63cf;
       transition: 0.5s;
       text-shadow: 0 0 3px #f78ac9, 0 0 15px #f78ac9, 0 0 45px #f78ac9; }
 
 /*FIN DE LAS SECCIONES ACERCA Y METODO DEL INDEX*/
 /*INICIO FOOTER*/
-.col-md-12 {
+.col-lg-12 {
   background-color: #4305a8;
   display: flex;
   justify-content: center;
@@ -127,7 +127,8 @@ body {
   background-size: cover;
   margin: 0 14rem;
   clip-path: ellipse();
-  width: 70rem; }
+  max-width: 58rem;
+  max-height: 58rem; }
 
 /*FIN FOTO CRISTINA DEL INDEX*/
 /*INICIO GRID PAGINA ACERCA*/
@@ -306,14 +307,14 @@ body {
 
 /*FIN DE LA PAGINA CONTACTO*/
 @media (max-width: 430px) {
-  .hola, .rabine {
-    font-size: 25px;
+  .hola, .rabine, .galeria-imagenes, .head-contacto {
+    font-size: 30px;
     margin: 5px; }
-  .nombre, .acerca, .metodo {
-    font-size: 15px;
+  .nombre, .acerca, .metodo, .presentacion-acerca, .metodo-cuerpo {
+    font-size: 20px;
     margin: 5px; }
-  .conoce-mas, .metodo-cuerpo {
-    font-size: 10px; }
+  .conoce-mas, .conoce-mas-acerca, .contactame-metodo, .ubicacion, .horario {
+    font-size: 15px; }
   .foto-acerca {
     background-image: 0%; }
   .foto-index {
@@ -321,14 +322,14 @@ body {
     min-width: 22rem; } }
 
 @media (min-width: 576px) {
-  .hola {
+  .hola, .rabine, .galeria-imagenes, .head-contacto {
     font-size: 30px;
     margin: 10px; }
-  .nombre, .acerca, .metodo {
+  .nombre, .acerca, .metodo, .presentacion-acerca, .metodo-cuerpo {
     font-size: 20px;
     margin: 10px; }
-  .conoce-mas, .metodo-cuerpo {
-    font-size: 10px; }
+  .conoce-mas, .conoce-mas-acerca, .contactame-metodo, .ubicacion, .horario {
+    font-size: 15px; }
   .foto-acerca {
     background-image: 0%; }
   .foto-index {
@@ -336,13 +337,13 @@ body {
     min-width: 30rem; } }
 
 @media (min-width: 768px) {
-  .hola {
+  .hola, .rabine, .galeria-imagenes, .head-contacto {
     font-size: 35px;
     margin: 15px; }
-  .nombre, .acerca, .metodo {
+  .nombre, .acerca, .metodo, .presentacion-acerca, .metodo-cuerpo {
     font-size: 25px;
     margin: 15px; }
-  .conoce-mas, .metodo-cuerpo {
+  .conoce-mas, .conoce-mas-acerca, .contactame-metodo, .ubicacion, .horario {
     font-size: 15px; }
   .foto-acerca {
     background-image: 50%; }
@@ -351,13 +352,13 @@ body {
     min-width: 38rem; } }
 
 @media (min-width: 940px) {
-  .hola {
+  .hola, .rabine, .galeria-imagenes, .head-contacto {
     font-size: 40px;
     margin: 20px; }
-  .nombre, .acerca, .metodo {
+  .nombre, .acerca, .metodo, .presentacion-acerca, .metodo-cuerpo {
     font-size: 30px;
     margin: 20px; }
-  .conoce-mas, .metodo-cuerpo {
+  .conoce-mas, .conoce-mas-acerca, .contactame-metodo, .ubicacion, .horario {
     font-size: 20px; }
   .foto-acerca {
     background-image: 60%; }
@@ -366,13 +367,13 @@ body {
     min-width: 46rem; } }
 
 @media (min-width: 1024px) {
-  .hola {
+  .hola, .rabine, .galeria-imagenes, .head-contacto {
     font-size: 45px;
     margin: 25px; }
-  .nombre, .acerca, .metodo {
+  .nombre, .acerca, .metodo, .presentacion-acerca, .metodo-cuerpo {
     font-size: 35px;
     margin: 25px; }
-  .conoce-mas, .metodo-cuerpo {
+  .conoce-mas, .conoce-mas-acerca, .contactame-metodo, .ubicacion, .horario {
     font-size: 25px; }
   .foto-acerca {
     background-image: 60%; }

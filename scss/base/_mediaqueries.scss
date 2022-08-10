@@ -1,15 +1,15 @@
 @media(max-width: 430px){
-    .hola, .rabine{
-        font-size: 25px;
+    .hola, .rabine, .galeria-imagenes, .head-contacto{
+        font-size: 30px;
         margin: 5px;
     } 
     
-    .nombre, .acerca, .metodo {
-        font-size: 15px;
+    .nombre, .acerca, .metodo, .presentacion-acerca, .metodo-cuerpo{
+        font-size: 20px;
         margin: 5px;
     }
-    .conoce-mas, .metodo-cuerpo{
-        font-size: 10px;
+    .conoce-mas, .conoce-mas-acerca, .contactame-metodo, .ubicacion, .horario{
+        font-size: 15px;
     }
 
     .foto-acerca{
@@ -23,18 +23,18 @@
 
 @media(min-width: 576px){
     
-    .hola{
+    .hola, .rabine, .galeria-imagenes, .head-contacto{
         font-size: 30px;
         margin: 10px;
     } 
     
-    .nombre, .acerca, .metodo {
+    .nombre, .acerca, .metodo, .presentacion-acerca, .metodo-cuerpo{
         font-size: 20px;
         margin: 10px;
     }
 
-    .conoce-mas, .metodo-cuerpo{
-        font-size: 10px;
+    .conoce-mas, .conoce-mas-acerca, .contactame-metodo, .ubicacion, .horario{
+        font-size: 15px;
     }
     .foto-acerca{
         background-image: 0%;
@@ -47,17 +47,17 @@
 
 @media(min-width: 768px){
     
-    .hola{
+    .hola, .rabine, .galeria-imagenes, .head-contacto{
         font-size: 35px;
         margin: 15px;
     } 
     
-    .nombre, .acerca, .metodo {
+    .nombre, .acerca, .metodo, .presentacion-acerca, .metodo-cuerpo{
         font-size: 25px;
         margin: 15px;
     }
 
-    .conoce-mas,.metodo-cuerpo{
+    .conoce-mas, .conoce-mas-acerca, .contactame-metodo, .ubicacion, .horario{
         font-size: 15px;
     }
     .foto-acerca{
@@ -72,16 +72,16 @@
 
 @media(min-width: 940px){
     
-    .hola{
+    .hola, .rabine, .galeria-imagenes, .head-contacto{
         font-size: 40px;
         margin: 20px;
     } 
         
-    .nombre, .acerca, .metodo {
+    .nombre, .acerca, .metodo, .presentacion-acerca, .metodo-cuerpo{
         font-size: 30px;
         margin: 20px;
     }
-    .conoce-mas, .metodo-cuerpo{
+    .conoce-mas, .conoce-mas-acerca, .contactame-metodo, .ubicacion, .horario{
         font-size: 20px;
     }
 
@@ -96,15 +96,15 @@
 
 
 @media(min-width: 1024px){
-    .hola {
+    .hola, .rabine, .galeria-imagenes, .head-contacto{
         font-size: 45px;
         margin: 25px;
     }
-    .nombre, .acerca, .metodo {
+    .nombre, .acerca, .metodo, .presentacion-acerca, .metodo-cuerpo {
         font-size: 35px;
         margin: 25px;
     }
-    .conoce-mas, .metodo-cuerpo{
+    .conoce-mas, .conoce-mas-acerca, .contactame-metodo, .ubicacion, .horario{
         font-size: 25px;
     }
 

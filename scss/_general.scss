@@ -40,7 +40,7 @@ body {
 /*INCIO SECCION HOLA INDEX*/
 
 
-.col-md-12 {
+.col-lg-12 {
 	background-color:$colorPrincipal;
 }
 
@@ -104,7 +104,7 @@ body {
 
 /*INCIO DE LAS SECCIONES ACERCA Y METODO DEL INDEX*/
 
-.col-md-6 {
+.col-lg-6 {
 	background-color:$colorPrincipal;
 	height: 350px;
 	@include caja-flex(flex, center, center);
@@ -124,7 +124,7 @@ body {
 
 /*INICIO FOOTER*/
 
-.col-md-12 {
+.col-lg-12 {
 	background-color:$colorPrincipal;
 	@include caja-flex(flex, center, center);
 	flex-direction: column;
@@ -150,7 +150,8 @@ body {
 	background-size: cover;
 	margin: 0 14rem;
 	clip-path: ellipse();
-	width: 70rem;
+	max-width:58rem;
+	max-height:58rem;
 }
 
 /*FIN FOTO CRISTINA DEL INDEX*/
