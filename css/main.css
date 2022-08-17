@@ -1,18 +1,3 @@
-.conoce-mas, .conoce-mas-acerca {
-  display: flex;
-  align-items: center;
-  justify-content: right; }
-  .conoce-mas a, .conoce-mas-acerca a {
-    font-size: 15px;
-    color: #fd63cf;
-    text-decoration: none;
-    font: bold;
-    margin: 30px; }
-    .conoce-mas a:hover, .conoce-mas-acerca a:hover {
-      color: #fd63cf;
-      transition: 0.5s;
-      text-shadow: 0 0 7px #fd63cf, 0 0 30px #fd63cf, 0 0 80px #fd63cf; }
-
 /*SETEO VALORES DEL BODY*/
 body {
   padding: 0;
@@ -27,14 +12,14 @@ body {
 .barra-navegacion {
   background-color: #4305a8; }
 
-.navbar-brand {
-  color: #FFF;
-  font-size: 28px; }
+.logocb {
+  width: 320px;
+  color: #FFF; }
 
 .navbar-nav a {
   color: #FFF;
-  font-size: 28px;
-  margin-left: 3rem; }
+  font-size: 22px;
+  margin-left: 1rem; }
   .navbar-nav a:hover {
     display: flex;
     align-items: center;
@@ -43,67 +28,71 @@ body {
 
 /*FIN DEL HEADER*/
 /*INCIO SECCION HOLA INDEX*/
-.col-lg-12 {
-  background-color: #4305a8; }
+.hero-index {
+  background-color: #4305a8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+  margin: 0; }
 
 .hola {
   color: #fd63cf;
-  margin-top: 100px;
-  font-size: 45px;
+  font-size: 37px;
   font: bold;
   font-weight: 500;
   letter-spacing: 0.5px;
-  animation: abcd 10s infinite; }
-
-@keyframes abcd {
-  0% {
-    margin-left: 30px; }
-  10% {
-    margin-left: 15px; }
-  20% {
-    margin-left: 30px; }
-  30% {
-    margin-right: 15px; }
-  40% {
-    margin-right: 30px; }
-  50% {
-    margin-left: 15px; }
-  60% {
-    margin-left: 30px; }
-  70% {
-    margin-right: 15px; }
-  80% {
-    margin-right: 30px; }
-  90% {
-    margin-left: 15px; }
-  100% {
-    margin-left: 30px; } }
+  height: 40px; }
 
 .nombre {
   color: #FFF;
-  font-size: 35px;
-  margin: 30px; }
+  font-size: 27px;
+  height: 40px; }
+
+.conoce-mas {
+  background-color: #4305a8;
+  height: 40px; }
+  .conoce-mas a {
+    color: #fd63cf;
+    font-size: 22px;
+    text-decoration: none; }
+    .conoce-mas a:hover {
+      color: #fd63cf;
+      transition: 0.5s;
+      text-shadow: 0 0 2px #f78ac9, 0 0 15px #f78ac9, 0 0 45px #f78ac9; }
+
+.foto-index {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 35rem;
+  min-width: 35rem;
+  border-radius: 50%; }
+
+.hero-index p {
+  margin-bottom: 0px; }
 
 /*FIN DE LA SECCION HOLA DEL INDEX*/
-/*INCIO DE LAS SECCIONES ACERCA Y METODO DEL INDEX*/
-.col-lg-6 {
+/*INCIO DE LA SECCION ASIDE*/
+.aside-index, .clases {
   background-color: #4305a8;
-  height: 350px;
+  height: 200px;
   display: flex;
   justify-content: center;
   align-items: center; }
-  .col-lg-6 a {
+  .aside-index a, .clases a {
     color: #fd63cf;
-    font-size: 35px;
+    font-size: 27px;
     text-decoration: none; }
-    .col-lg-6 a:hover {
+    .aside-index a:hover, .clases a:hover {
       color: #fd63cf;
       transition: 0.5s;
-      text-shadow: 0 0 3px #f78ac9, 0 0 15px #f78ac9, 0 0 45px #f78ac9; }
+      text-shadow: 0 0 2px #f78ac9, 0 0 15px #f78ac9, 0 0 45px #f78ac9; }
 
-/*FIN DE LAS SECCIONES ACERCA Y METODO DEL INDEX*/
+/*FIN DE LA SECCION ASIDE*/
 /*INICIO FOOTER*/
-.col-lg-12 {
+.fotoindex {
   background-color: #4305a8;
   display: flex;
   justify-content: center;
@@ -117,52 +106,52 @@ body {
 
 .iconos i {
   color: #FFF;
-  font-size: 65px;
-  line-height: 65px;
-  padding: 1.5rem; }
+  font-size: 60px;
+  line-height: 60px;
+  padding: 1.5rem;
+  list-style-type: none; }
 
 /*FIN FOOTER*/
-/*INICIO FOTO CRISTINA DEL INDEX*/
-.foto-index {
-  background-size: cover;
-  margin: 0 14rem;
-  clip-path: ellipse();
-  max-width: 58rem;
-  max-height: 58rem; }
-
-/*FIN FOTO CRISTINA DEL INDEX*/
 /*INICIO GRID PAGINA ACERCA*/
-.col-md-7 {
+.col-lg-7 {
   background-color: #4305a8;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column; }
 
-.presentacion-acerca {
+.presentacion-acerca p {
   color: #FFF;
-  font-size: 25px;
-  font: bold;
-  line-height: 80px;
+  font-size: 18px;
   margin: 30px; }
 
-.col-md-5 {
+.conoce-mas-acerca {
+  background-color: #4305a8;
+  height: 40px; }
+  .conoce-mas-acerca a {
+    color: #fd63cf;
+    font-size: 22px;
+    text-decoration: none; }
+    .conoce-mas-acerca a:hover {
+      color: #fd63cf;
+      transition: 0.5s;
+      text-shadow: 0 0 2px #f78ac9, 0 0 15px #f78ac9, 0 0 45px #f78ac9; }
+
+.col-lg-5 {
   background-color: #4305a8; }
 
 .foto-acerca {
-  background-size: cover;
-  margin-top: 30px;
-  margin-right: 5px;
-  width: 85%;
-  height: auto;
-  clip-path: circle();
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  max-width: 22rem;
+  min-width: 22rem;
+  border-radius: 70%; }
 
 /*FIN GRID PAGINA ACERCA*/
 /*DEFINO EL GRID PAGINA METODO*/
-.col-md-12 {
+.col-lg-12 {
   background-color: #4305a8;
   display: flex;
   justify-content: center;
@@ -181,13 +170,10 @@ body {
   justify-content: center;
   align-items: center; }
 
-.metodo-cuerpo {
+.metodo-cuerpo p {
   color: #FFF;
-  font-size: 25px;
-  font: bold;
-  line-height: 80px;
-  margin-left: 100px;
-  margin-right: 100px; }
+  font-size: 18px;
+  margin: 30px; }
 
 .contactame-metodo {
   background-color: #4305a8;
@@ -217,12 +203,11 @@ body {
   justify-content: center;
   align-items: center; }
 
-.galeria-imagenes {
+.galeria {
+  color: #4305a8;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-left: 6rem;
-  margin-bottom: 4rem; }
+  align-items: center;
+  justify-content: center; }
 
 /*FIN LA PAGINA MEDIA*/
 /*DEFINO LOS VALORES PARA LA PAGINA CONTACTO*/
@@ -308,75 +293,114 @@ body {
 /*FIN DE LA PAGINA CONTACTO*/
 @media (max-width: 430px) {
   .hola, .rabine, .galeria-imagenes, .head-contacto {
-    font-size: 30px;
-    margin: 5px; }
-  .nombre, .acerca, .metodo, .presentacion-acerca, .metodo-cuerpo {
-    font-size: 20px;
-    margin: 5px; }
+    font-size: 20px; }
+  .nombre, .clases, .presentacion-acerca, .metodo-cuerpo {
+    font-size: 16px; }
   .conoce-mas, .conoce-mas-acerca, .contactame-metodo, .ubicacion, .horario {
-    font-size: 15px; }
-  .foto-acerca {
-    background-image: 0%; }
+    font-size: 11px; }
   .foto-index {
-    max-width: 22rem;
-    min-width: 22rem; } }
+    max-width: 18rem;
+    min-width: 18rem; }
+  .foto-acerca {
+    max-width: 18rem;
+    min-width: 18rem; }
+  .iconos i {
+    color: #FFF;
+    font-size: 30px;
+    line-height: 30px;
+    padding: 0.5rem; } }
 
 @media (min-width: 576px) {
   .hola, .rabine, .galeria-imagenes, .head-contacto {
-    font-size: 30px;
-    margin: 10px; }
-  .nombre, .acerca, .metodo, .presentacion-acerca, .metodo-cuerpo {
-    font-size: 20px;
-    margin: 10px; }
+    font-size: 25px; }
+  .nombre, .clases, .presentacion-acerca, .metodo-cuerpo {
+    font-size: 20px; }
   .conoce-mas, .conoce-mas-acerca, .contactame-metodo, .ubicacion, .horario {
     font-size: 15px; }
-  .foto-acerca {
-    background-image: 0%; }
   .foto-index {
-    max-width: 30rem;
-    min-width: 30rem; } }
+    max-width: 20rem;
+    min-width: 20rem; }
+  .foto-acerca {
+    max-width: 18rem;
+    min-width: 18rem; }
+  .iconos i {
+    color: #FFF;
+    font-size: 30px;
+    line-height: 30px;
+    padding: 0.8rem; } }
 
 @media (min-width: 768px) {
   .hola, .rabine, .galeria-imagenes, .head-contacto {
-    font-size: 35px;
-    margin: 15px; }
-  .nombre, .acerca, .metodo, .presentacion-acerca, .metodo-cuerpo {
-    font-size: 25px;
-    margin: 15px; }
+    font-size: 30px; }
+  .nombre, .clases, .presentacion-acerca, .metodo-cuerpo {
+    font-size: 25px; }
   .conoce-mas, .conoce-mas-acerca, .contactame-metodo, .ubicacion, .horario {
-    font-size: 15px; }
-  .foto-acerca {
-    background-image: 50%; }
+    font-size: 20px; }
   .foto-index {
-    max-width: 38rem;
-    min-width: 38rem; } }
+    max-width: 25rem;
+    min-width: 25rem; }
+  .foto-acerca {
+    max-width: 20rem;
+    min-width: 20rem; }
+  .iconos i {
+    color: #FFF;
+    font-size: 40px;
+    line-height: 40px;
+    padding: 1rem; } }
 
 @media (min-width: 940px) {
   .hola, .rabine, .galeria-imagenes, .head-contacto {
-    font-size: 40px;
-    margin: 20px; }
-  .nombre, .acerca, .metodo, .presentacion-acerca, .metodo-cuerpo {
-    font-size: 30px;
-    margin: 20px; }
+    font-size: 35px; }
+  .nombre, .clases, .presentacion-acerca, .metodo-cuerpo {
+    font-size: 25px; }
   .conoce-mas, .conoce-mas-acerca, .contactame-metodo, .ubicacion, .horario {
     font-size: 20px; }
-  .foto-acerca {
-    background-image: 60%; }
   .foto-index {
-    max-width: 46rem;
-    min-width: 46rem; } }
+    max-width: 30rem;
+    min-width: 30rem; }
+  .foto-acerca {
+    max-width: 20rem;
+    min-width: 20rem; }
+  .iconos i {
+    color: #FFF;
+    font-size: 50px;
+    line-height: 50px;
+    padding: 1.2rem; } }
 
 @media (min-width: 1024px) {
   .hola, .rabine, .galeria-imagenes, .head-contacto {
-    font-size: 45px;
-    margin: 25px; }
-  .nombre, .acerca, .metodo, .presentacion-acerca, .metodo-cuerpo {
-    font-size: 35px;
-    margin: 25px; }
+    font-size: 35px; }
+  .nombre, .clases, .presentacion-acerca, .metodo-cuerpo {
+    font-size: 25px; }
+  .conoce-mas, .conoce-mas-acerca, .contactame-metodo, .ubicacion, .horario {
+    font-size: 20px; }
+  .foto-index {
+    max-width: 34rem;
+    min-width: 34rem; }
+  .foto-acerca {
+    max-width: 22rem;
+    min-width: 22rem; }
+  .iconos i {
+    color: #FFF;
+    font-size: 60px;
+    line-height: 60px;
+    padding: 1.5rem; } }
+
+@media (min-width: 1440px) {
+  .hola, .rabine, .galeria-imagenes, .head-contacto {
+    font-size: 40px; }
+  .nombre, .clases, .presentacion-acerca, .metodo-cuerpo {
+    font-size: 30px; }
   .conoce-mas, .conoce-mas-acerca, .contactame-metodo, .ubicacion, .horario {
     font-size: 25px; }
-  .foto-acerca {
-    background-image: 60%; }
   .foto-index {
-    max-width: 58rem;
-    min-width: 58rem; } }
+    max-width: 37rem;
+    min-width: 37rem; }
+  .foto-acerca {
+    max-width: 33rem;
+    min-width: 33rem; }
+  .iconos i {
+    color: #FFF;
+    font-size: 60px;
+    line-height: 60px;
+    padding: 1.5rem; } }

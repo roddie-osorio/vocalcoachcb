@@ -16,15 +16,15 @@ body {
 .barra-navegacion {
 	background-color:$colorPrincipal;
 }
-.navbar-brand {
+.logocb {
+	width: 320px;
 	color:$colorTerciario;
-	font-size: 28px;
 }
 .navbar-nav {
 	a {
 		color:$colorTerciario;
-		font-size: 28px;
-		margin-left: 3rem;
+		font-size: 22px;
+		margin-left: 1rem;
 		&:hover {
 			display: flex;
 			align-items: center;
@@ -40,91 +40,85 @@ body {
 /*INCIO SECCION HOLA INDEX*/
 
 
-.col-lg-12 {
+.hero-index{
 	background-color:$colorPrincipal;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 40px;
+	margin: 0;
 }
 
 .hola{
 	color:$colorSecundario;
-    margin-top: 100px; 
-    font-size: 45px;
+    font-size: 37px;
 	font: bold;
     font-weight: 500;
     letter-spacing: 0.5px;
-	animation: abcd 10s infinite;
+	height: 40px;
+	
 }
 
-@keyframes abcd {
-	0% {
-		margin-left: 30px;
-	}
-	10% {
-		margin-left: 15px;
-	}
-	20% {
-		margin-left: 30px;
-	}
-	30% {
-		margin-right: 15px;
-	}
-	40% {
-        margin-right: 30px;
-	}
-	50% {
-		margin-left: 15px;
-	}
-	60% {
-		margin-left: 30px;
-	}
-	70% {
-		margin-right: 15px;
-	}
-	80% {
-		margin-right: 30px;
-	}
-	90% {
-		margin-left: 15px;
-	}
-	100% {
-		margin-left: 30px;
-	}
-}
 .nombre {
 	color:$colorTerciario;
-	font-size: 35px;
-	margin: 30px;
+	font-size: 27px;
+	height: 40px;
 }
 
-
-.conoce-mas {
-	@extend %conoce;
-}
-
-/*FIN DE LA SECCION HOLA DEL INDEX*/
-
-/*INCIO DE LAS SECCIONES ACERCA Y METODO DEL INDEX*/
-
-.col-lg-6 {
+.conoce-mas{
 	background-color:$colorPrincipal;
-	height: 350px;
-	@include caja-flex(flex, center, center);
+	height: 40px;
 	a {
 		color:$colorSecundario;
-		font-size: 35px;
+		font-size: 22px;
 		text-decoration: none;
 		&:hover {
 			color:$colorSecundario;
 			transition: 0.5s;
-			text-shadow: 0 0 3px #f78ac9, 0 0 15px #f78ac9, 0 0 45px #f78ac9;
+			text-shadow: 0 0 2px #f78ac9, 0 0 15px #f78ac9, 0 0 45px #f78ac9;
 		}
 	}
 }
 
-/*FIN DE LAS SECCIONES ACERCA Y METODO DEL INDEX*/
+.foto-index {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 35rem;
+    min-width: 35rem;
+	border-radius: 50%;
+}
+
+.hero-index p{
+	margin-bottom: 0px;
+}
+
+/*FIN DE LA SECCION HOLA DEL INDEX*/
+
+/*INCIO DE LA SECCION ASIDE*/
+
+.aside-index, .clases{
+	background-color:$colorPrincipal;
+	height: 200px;
+	@include caja-flex(flex, center, center);
+	a {
+		color:$colorSecundario;
+		font-size: 27px;
+		text-decoration: none;
+		&:hover {
+			color:$colorSecundario;
+			transition: 0.5s;
+			text-shadow: 0 0 2px #f78ac9, 0 0 15px #f78ac9, 0 0 45px #f78ac9;
+		}
+	}
+}
+
+/*FIN DE LA SECCION ASIDE*/
 
 /*INICIO FOOTER*/
 
-.col-lg-12 {
+.fotoindex {
 	background-color:$colorPrincipal;
 	@include caja-flex(flex, center, center);
 	flex-direction: column;
@@ -137,59 +131,62 @@ body {
 }
 .iconos {
 	i {
-		color:$colorTerciario;
-		font-size: 65px;
-		line-height: 65px;
-		padding: 1.5rem;
+	color:$colorTerciario;
+	font-size: 60px;
+	line-height: 60px;
+	padding: 1.5rem;
+	list-style-type: none;
 	}
 }
 /*FIN FOOTER*/
 
-/*INICIO FOTO CRISTINA DEL INDEX*/
-.foto-index {
-	background-size: cover;
-	margin: 0 14rem;
-	clip-path: ellipse();
-	max-width:58rem;
-	max-height:58rem;
-}
-
-/*FIN FOTO CRISTINA DEL INDEX*/
 /*INICIO GRID PAGINA ACERCA*/
 
-.col-md-7 {
+.col-lg-7 {
 	background-color:$colorPrincipal;
 	@include caja-flex(flex, center, center);
 	flex-direction: column;
 }
 
-.presentacion-acerca {
+.presentacion-acerca p{
 	color:$colorTerciario;
-	font-size: 25px;
-	font: bold;
-	line-height: 80px;
+	font-size: 18px;
 	margin: 30px;
 }
 .conoce-mas-acerca {
-	@extend %conoce;
+background-color:$colorPrincipal;
+	height: 40px;
+	a {
+		color:$colorSecundario;
+		font-size: 22px;
+		text-decoration: none;
+		&:hover {
+			color:$colorSecundario;
+			transition: 0.5s;
+			text-shadow: 0 0 2px #f78ac9, 0 0 15px #f78ac9, 0 0 45px #f78ac9;
+		}
+	}
 }
-.col-md-5 {
+
+
+.col-lg-5 {
 	background-color:$colorPrincipal;
 }
 .foto-acerca {
-	background-size:cover;
-	margin-top: 30px;
-	margin-right: 5px;
-	width: 85%;
-	height: auto;
-	clip-path: circle();
-	@include caja-flex(flex, center, center);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	max-width: 22rem;
+    min-width: 22rem;
+	border-radius: 70%;
 }
+
 /*FIN GRID PAGINA ACERCA*/
 
 /*DEFINO EL GRID PAGINA METODO*/
 
-.col-md-12 {
+.col-lg-12 {
 	background-color:$colorPrincipal;
 	@include caja-flex(flex, center, center);
 	flex-direction: column;
@@ -204,13 +201,10 @@ body {
 	letter-spacing: 0.5px;
 	@include caja-flex(flex, center, center);
 }
-.metodo-cuerpo {
+.metodo-cuerpo p {
 	color:$colorTerciario;
-	font-size: 25px;
-	font: bold;
-	line-height: 80px;
-	margin-left: 100px;
-	margin-right: 100px;
+	font-size: 18px;
+	margin: 30px;
 }
 
 .contactame-metodo {
@@ -242,12 +236,12 @@ body {
 	letter-spacing: 0.5px;
 	@include caja-flex(flex, center, center);
 }
-.galeria-imagenes {
+.galeria {
+	color:$colorPrincipal;
 	display: flex;
-	flex-direction: column;
+	align-items: center;
 	justify-content: center;
-	margin-left: 6rem;
-	margin-bottom: 4rem;
+	
 }
 /*FIN LA PAGINA MEDIA*/
 

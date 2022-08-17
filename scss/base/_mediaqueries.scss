@@ -1,118 +1,198 @@
 @media(max-width: 430px){
     .hola, .rabine, .galeria-imagenes, .head-contacto{
-        font-size: 30px;
-        margin: 5px;
-    } 
-    
-    .nombre, .acerca, .metodo, .presentacion-acerca, .metodo-cuerpo{
         font-size: 20px;
-        margin: 5px;
+        
+    }
+    .nombre, .clases, .presentacion-acerca, .metodo-cuerpo {
+        font-size: 16px;
+        
     }
     .conoce-mas, .conoce-mas-acerca, .contactame-metodo, .ubicacion, .horario{
-        font-size: 15px;
+        font-size: 11px;
     }
 
-    .foto-acerca{
-        background-image: 0%;
-    }
     .foto-index{
-        max-width: 22rem;
-        min-width: 22rem;
+        max-width: 18rem;
+        min-width: 18rem;
+    }
+    .foto-acerca{
+        max-width: 18rem;
+        min-width: 18rem;
+    }
+
+    .iconos{
+        i {
+            color:$colorTerciario;
+            font-size: 30px;
+            line-height: 30px;
+            padding: 0.5rem;
+        }
     }
 }
 
 @media(min-width: 576px){
-    
     .hola, .rabine, .galeria-imagenes, .head-contacto{
-        font-size: 30px;
-        margin: 10px;
-    } 
-    
-    .nombre, .acerca, .metodo, .presentacion-acerca, .metodo-cuerpo{
-        font-size: 20px;
-        margin: 10px;
+        font-size: 25px;
+        
     }
-
+    .nombre, .clases, .presentacion-acerca, .metodo-cuerpo {
+        font-size: 20px;
+        
+    }
     .conoce-mas, .conoce-mas-acerca, .contactame-metodo, .ubicacion, .horario{
         font-size: 15px;
     }
-    .foto-acerca{
-        background-image: 0%;
-    }
+
     .foto-index{
-        max-width: 30rem;
-        min-width: 30rem;
+        max-width: 20rem;
+        min-width: 20rem;
+    }
+
+    .foto-acerca{
+        max-width: 18rem;
+        min-width: 18rem;
+    }
+    .iconos{
+        i {
+            color:$colorTerciario;
+            font-size: 30px;
+            line-height: 30px;
+            padding: 0.8rem;
+        }
     }
 }
 
+
 @media(min-width: 768px){
-    
     .hola, .rabine, .galeria-imagenes, .head-contacto{
-        font-size: 35px;
-        margin: 15px;
-    } 
-    
-    .nombre, .acerca, .metodo, .presentacion-acerca, .metodo-cuerpo{
+        font-size: 30px;
+        
+    }
+    .nombre, .clases, .presentacion-acerca, .metodo-cuerpo {
         font-size: 25px;
-        margin: 15px;
+        
+    }
+    .conoce-mas, .conoce-mas-acerca, .contactame-metodo, .ubicacion, .horario{
+        font-size: 20px;
     }
 
-    .conoce-mas, .conoce-mas-acerca, .contactame-metodo, .ubicacion, .horario{
-        font-size: 15px;
-    }
-    .foto-acerca{
-        background-image: 50%;
-    }
     .foto-index{
-        max-width: 38rem;
-        min-width: 38rem;
+        max-width: 25rem;
+        min-width: 25rem;
+    }
+
+    .foto-acerca{
+        max-width: 20rem;
+        min-width: 20rem;
+    }
+
+    .iconos{
+        i {
+            color:$colorTerciario;
+            font-size: 40px;
+            line-height: 40px;
+            padding: 1rem;
+        }
     }
 }
 
 
 @media(min-width: 940px){
-    
     .hola, .rabine, .galeria-imagenes, .head-contacto{
-        font-size: 40px;
-        margin: 20px;
-    } 
+        font-size: 35px;
         
-    .nombre, .acerca, .metodo, .presentacion-acerca, .metodo-cuerpo{
-        font-size: 30px;
-        margin: 20px;
+    }
+    .nombre, .clases, .presentacion-acerca, .metodo-cuerpo {
+        font-size: 25px;
+        
     }
     .conoce-mas, .conoce-mas-acerca, .contactame-metodo, .ubicacion, .horario{
         font-size: 20px;
     }
 
-    .foto-acerca{
-        background-image: 60%;
+    .foto-index, {
+        max-width: 30rem;
+        min-width: 30rem;
     }
-    .foto-index{
-        max-width: 46rem;
-        min-width: 46rem;
+
+    .foto-acerca{
+        max-width: 20rem;
+        min-width: 20rem;
+    }
+    .iconos{
+        i {
+            color:$colorTerciario;
+            font-size: 50px;
+            line-height: 50px;
+            padding: 1.2rem;
+        }
     }
 }
 
 
 @media(min-width: 1024px){
     .hola, .rabine, .galeria-imagenes, .head-contacto{
-        font-size: 45px;
-        margin: 25px;
-    }
-    .nombre, .acerca, .metodo, .presentacion-acerca, .metodo-cuerpo {
         font-size: 35px;
-        margin: 25px;
+        
+    }
+    .nombre, .clases, .presentacion-acerca, .metodo-cuerpo {
+        font-size: 25px;
+        
+    }
+    .conoce-mas, .conoce-mas-acerca, .contactame-metodo, .ubicacion, .horario{
+        font-size: 20px;
+    }
+
+    .foto-index{
+        max-width: 34rem;
+        min-width: 34rem;
+    }
+
+    .foto-acerca{
+        max-width: 22rem;
+        min-width: 22rem;
+    }
+
+    .iconos {
+        i {
+            color:$colorTerciario;
+            font-size: 60px;
+            line-height: 60px;
+            padding: 1.5rem;
+        }
+    }
+}
+
+
+@media(min-width: 1440px){
+    .hola, .rabine, .galeria-imagenes, .head-contacto{
+        font-size: 40px;
+        
+    }
+    .nombre, .clases, .presentacion-acerca, .metodo-cuerpo {
+        font-size: 30px;
+        
     }
     .conoce-mas, .conoce-mas-acerca, .contactame-metodo, .ubicacion, .horario{
         font-size: 25px;
     }
 
-    .foto-acerca{
-        background-image: 60%;
-    }
     .foto-index{
-        max-width: 58rem;
-        min-width: 58rem;
+        max-width: 37rem;
+        min-width: 37rem;
+    }
+
+    .foto-acerca{
+        max-width: 33rem;
+        min-width: 33rem;
+    }
+
+    .iconos {
+        i {
+            color:$colorTerciario;
+            font-size: 60px;
+            line-height: 60px;
+            padding: 1.5rem;
+        }
     }
 }
