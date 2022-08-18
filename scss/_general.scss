@@ -3,16 +3,12 @@
 body {
 	padding: 0;
 	margin: 0;
-	font-family: 'Lato', sans-serif;
 	font-family: 'Montserrat', sans-serif;
+	background-color: $colorPrincipal;
 }
 
 /*INICIO DEL HEADER DE TODAS LAS PAGINAS*/
 
-
-.navbar {
-	height: 95px;
-}
 .barra-navegacion {
 	background-color:$colorPrincipal;
 }
@@ -37,7 +33,7 @@ body {
 
 /*FIN DEL HEADER*/
 
-/*INCIO SECCION HOLA INDEX*/
+/*INCIO SECCION HERO-INDEX*/
 
 
 .hero-index{
@@ -69,17 +65,16 @@ body {
 .conoce-mas{
 	background-color:$colorPrincipal;
 	height: 40px;
-	a {
+	color:$colorSecundario;
+	font-size: 22px;
+	text-decoration: none;
+	&:hover {
 		color:$colorSecundario;
-		font-size: 22px;
-		text-decoration: none;
-		&:hover {
-			color:$colorSecundario;
-			transition: 0.5s;
-			text-shadow: 0 0 2px #f78ac9, 0 0 15px #f78ac9, 0 0 45px #f78ac9;
-		}
+		transition: 0.5s;
+		text-shadow: 0 0 2px #f78ac9, 0 0 15px #f78ac9, 0 0 45px #f78ac9;
 	}
 }
+
 
 .foto-index {
 	display: flex;
@@ -94,27 +89,26 @@ body {
 	margin-bottom: 0px;
 }
 
-/*FIN DE LA SECCION HOLA DEL INDEX*/
+/*FIN DE LA SECCION HERO-INDEX*/
 
-/*INCIO DE LA SECCION ASIDE*/
+/*INCIO DE LA SECCION ASIDE DEL INDEX*/
 
 .aside-index, .clases{
 	background-color:$colorPrincipal;
 	height: 200px;
 	@include caja-flex(flex, center, center);
-	a {
+	color:$colorSecundario;
+	font-size: 27px;
+	text-decoration: none;
+	&:hover {
 		color:$colorSecundario;
-		font-size: 27px;
-		text-decoration: none;
-		&:hover {
-			color:$colorSecundario;
-			transition: 0.5s;
-			text-shadow: 0 0 2px #f78ac9, 0 0 15px #f78ac9, 0 0 45px #f78ac9;
-		}
+		transition: 0.5s;
+		text-shadow: 0 0 2px #f78ac9, 0 0 15px #f78ac9, 0 0 45px #f78ac9;
 	}
+	
 }
 
-/*FIN DE LA SECCION ASIDE*/
+/*FIN DE LA SECCION ASIDE DEL INDEX*/
 
 /*INICIO FOOTER*/
 
@@ -140,51 +134,78 @@ body {
 }
 /*FIN FOOTER*/
 
-/*INICIO GRID PAGINA ACERCA*/
+/*INICIO PAGINA ACERCA*/
 
-.col-lg-7 {
+
+.hero-acerca{
 	background-color:$colorPrincipal;
-	@include caja-flex(flex, center, center);
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	flex-direction: column;
+	gap: 40px;
+	margin: 0;
 }
 
-.presentacion-acerca p{
-	color:$colorTerciario;
-	font-size: 18px;
-	margin: 30px;
+
+.hola-acerca{
+	color:$colorSecundario;
+    font-size: 30px;
+	font: bold;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+	margin-top: 40px;
 }
+
+.nombre-acerca, .presentacion-acerca{
+	color:$colorTerciario;
+	font-size: 24px;
+}
+
 .conoce-mas-acerca {
-background-color:$colorPrincipal;
+	margin-top: 30px;
+	background-color:$colorPrincipal;
 	height: 40px;
-	a {
+	color:$colorSecundario;
+	font-size: 22px;
+	text-decoration: none;
+	&:hover {
 		color:$colorSecundario;
-		font-size: 22px;
-		text-decoration: none;
-		&:hover {
-			color:$colorSecundario;
-			transition: 0.5s;
-			text-shadow: 0 0 2px #f78ac9, 0 0 15px #f78ac9, 0 0 45px #f78ac9;
-		}
+		transition: 0.5s;
+		text-shadow: 0 0 2px #f78ac9, 0 0 15px #f78ac9, 0 0 45px #f78ac9;
 	}
 }
 
-
-.col-lg-5 {
-	background-color:$colorPrincipal;
-}
-.foto-acerca {
+.col-lg-5{
 	display: flex;
-	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	max-width: 22rem;
-    min-width: 22rem;
-	border-radius: 70%;
 }
 
-/*FIN GRID PAGINA ACERCA*/
+.foto-acerca {
+	max-width: 35rem;
+    min-width: 35rem;
+	border-radius: 50%;
+}
 
-/*DEFINO EL GRID PAGINA METODO*/
+.aside-acerca, .conoce-mas.acerca{
+	background-color:$colorPrincipal;
+	height: 200px;
+	@include caja-flex(flex, center, center);
+	color:$colorSecundario;
+	font-size: 27px;
+	text-decoration: none;
+	&:hover {
+		color:$colorSecundario;
+		transition: 0.5s;
+		text-shadow: 0 0 2px #f78ac9, 0 0 15px #f78ac9, 0 0 45px #f78ac9;
+	}
+	
+}
+
+/*FIN PAGINA ACERCA*/
+
+/*INICIO PAGINA METODO*/
 
 .col-lg-12 {
 	background-color:$colorPrincipal;
@@ -193,15 +214,15 @@ background-color:$colorPrincipal;
 	height: 100%;
 }
 .rabine {
-	margin-top: 100px;
 	color:$colorSecundario;
-	font-size: 45px;
+    font-size: 37px;
 	font: bold;
-	font-weight: 200;
-	letter-spacing: 0.5px;
-	@include caja-flex(flex, center, center);
+    font-weight: 500;
+    letter-spacing: 0.5px;
+	height: 40px;
+	
 }
-.metodo-cuerpo p {
+.metodo-cuerpo {
 	color:$colorTerciario;
 	font-size: 18px;
 	margin: 30px;
@@ -209,21 +230,19 @@ background-color:$colorPrincipal;
 
 .contactame-metodo {
 	background-color:$colorPrincipal;
-	display: flex;
-	align-items: center;
-	justify-content: right;
-	a {
-		font-size: 15px;
-		color:$colorTerciario;
-		text-decoration: none;
-		font: bold;
-		&:hover {
-			color:$colorSecundario;
-			transition: 0.5s;
-			text-shadow: 0 0 7px rgb(253, 99, 207), 0 0 30px rgb(253, 99, 207), 0 0 80px rgb(253, 99, 207);
-		}
+	height: 200px;
+	@include caja-flex(flex, center, center);
+	color:$colorSecundario;
+	font-size: 27px;
+	text-decoration: none;
+	&:hover {
+		color:$colorSecundario;
+		transition: 0.5s;
+		text-shadow: 0 0 2px #f78ac9, 0 0 15px #f78ac9, 0 0 45px #f78ac9;
 	}
+	
 }
+
 /*FIN PAGINA METODO*/
 
 /*DEFINO EL GRID DE LA PAGINA MEDIA*/
@@ -252,8 +271,7 @@ background-color:$colorPrincipal;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	margin-left: 6rem;
-	margin-bottom: 5rem;
+	margin: 0;
 	flex-direction: column;
 	min-height: 70vh;
 }

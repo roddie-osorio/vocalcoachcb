@@ -2,13 +2,10 @@
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Lato', sans-serif;
-  font-family: 'Montserrat', sans-serif; }
+  font-family: 'Montserrat', sans-serif;
+  background-color: #4305a8; }
 
 /*INICIO DEL HEADER DE TODAS LAS PAGINAS*/
-.navbar {
-  height: 95px; }
-
 .barra-navegacion {
   background-color: #4305a8; }
 
@@ -27,7 +24,7 @@ body {
     color: #fd63cf; }
 
 /*FIN DEL HEADER*/
-/*INCIO SECCION HOLA INDEX*/
+/*INCIO SECCION HERO-INDEX*/
 .hero-index {
   background-color: #4305a8;
   display: flex;
@@ -52,15 +49,14 @@ body {
 
 .conoce-mas {
   background-color: #4305a8;
-  height: 40px; }
-  .conoce-mas a {
+  height: 40px;
+  color: #fd63cf;
+  font-size: 22px;
+  text-decoration: none; }
+  .conoce-mas:hover {
     color: #fd63cf;
-    font-size: 22px;
-    text-decoration: none; }
-    .conoce-mas a:hover {
-      color: #fd63cf;
-      transition: 0.5s;
-      text-shadow: 0 0 2px #f78ac9, 0 0 15px #f78ac9, 0 0 45px #f78ac9; }
+    transition: 0.5s;
+    text-shadow: 0 0 2px #f78ac9, 0 0 15px #f78ac9, 0 0 45px #f78ac9; }
 
 .foto-index {
   display: flex;
@@ -73,24 +69,23 @@ body {
 .hero-index p {
   margin-bottom: 0px; }
 
-/*FIN DE LA SECCION HOLA DEL INDEX*/
-/*INCIO DE LA SECCION ASIDE*/
+/*FIN DE LA SECCION HERO-INDEX*/
+/*INCIO DE LA SECCION ASIDE DEL INDEX*/
 .aside-index, .clases {
   background-color: #4305a8;
   height: 200px;
   display: flex;
   justify-content: center;
-  align-items: center; }
-  .aside-index a, .clases a {
+  align-items: center;
+  color: #fd63cf;
+  font-size: 27px;
+  text-decoration: none; }
+  .aside-index:hover, .clases:hover {
     color: #fd63cf;
-    font-size: 27px;
-    text-decoration: none; }
-    .aside-index a:hover, .clases a:hover {
-      color: #fd63cf;
-      transition: 0.5s;
-      text-shadow: 0 0 2px #f78ac9, 0 0 15px #f78ac9, 0 0 45px #f78ac9; }
+    transition: 0.5s;
+    text-shadow: 0 0 2px #f78ac9, 0 0 15px #f78ac9, 0 0 45px #f78ac9; }
 
-/*FIN DE LA SECCION ASIDE*/
+/*FIN DE LA SECCION ASIDE DEL INDEX*/
 /*INICIO FOOTER*/
 .fotoindex {
   background-color: #4305a8;
@@ -112,45 +107,66 @@ body {
   list-style-type: none; }
 
 /*FIN FOOTER*/
-/*INICIO GRID PAGINA ACERCA*/
-.col-lg-7 {
+/*INICIO PAGINA ACERCA*/
+.hero-acerca {
   background-color: #4305a8;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column; }
+  flex-direction: column;
+  gap: 40px;
+  margin: 0; }
 
-.presentacion-acerca p {
+.hola-acerca {
+  color: #fd63cf;
+  font-size: 30px;
+  font: bold;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  margin-top: 40px; }
+
+.nombre-acerca, .presentacion-acerca {
   color: #FFF;
-  font-size: 18px;
-  margin: 30px; }
+  font-size: 24px; }
 
 .conoce-mas-acerca {
+  margin-top: 30px;
   background-color: #4305a8;
-  height: 40px; }
-  .conoce-mas-acerca a {
+  height: 40px;
+  color: #fd63cf;
+  font-size: 22px;
+  text-decoration: none; }
+  .conoce-mas-acerca:hover {
     color: #fd63cf;
-    font-size: 22px;
-    text-decoration: none; }
-    .conoce-mas-acerca a:hover {
-      color: #fd63cf;
-      transition: 0.5s;
-      text-shadow: 0 0 2px #f78ac9, 0 0 15px #f78ac9, 0 0 45px #f78ac9; }
+    transition: 0.5s;
+    text-shadow: 0 0 2px #f78ac9, 0 0 15px #f78ac9, 0 0 45px #f78ac9; }
 
 .col-lg-5 {
-  background-color: #4305a8; }
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 .foto-acerca {
+  max-width: 35rem;
+  min-width: 35rem;
+  border-radius: 50%; }
+
+.aside-acerca, .conoce-mas.acerca {
+  background-color: #4305a8;
+  height: 200px;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 22rem;
-  min-width: 22rem;
-  border-radius: 70%; }
+  color: #fd63cf;
+  font-size: 27px;
+  text-decoration: none; }
+  .aside-acerca:hover, .conoce-mas.acerca:hover {
+    color: #fd63cf;
+    transition: 0.5s;
+    text-shadow: 0 0 2px #f78ac9, 0 0 15px #f78ac9, 0 0 45px #f78ac9; }
 
-/*FIN GRID PAGINA ACERCA*/
-/*DEFINO EL GRID PAGINA METODO*/
+/*FIN PAGINA ACERCA*/
+/*INICIO PAGINA METODO*/
 .col-lg-12 {
   background-color: #4305a8;
   display: flex;
@@ -160,35 +176,31 @@ body {
   height: 100%; }
 
 .rabine {
-  margin-top: 100px;
   color: #fd63cf;
-  font-size: 45px;
+  font-size: 37px;
   font: bold;
-  font-weight: 200;
+  font-weight: 500;
   letter-spacing: 0.5px;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
+  height: 40px; }
 
-.metodo-cuerpo p {
+.metodo-cuerpo {
   color: #FFF;
   font-size: 18px;
   margin: 30px; }
 
 .contactame-metodo {
   background-color: #4305a8;
+  height: 200px;
   display: flex;
+  justify-content: center;
   align-items: center;
-  justify-content: right; }
-  .contactame-metodo a {
-    font-size: 15px;
-    color: #FFF;
-    text-decoration: none;
-    font: bold; }
-    .contactame-metodo a:hover {
-      color: #fd63cf;
-      transition: 0.5s;
-      text-shadow: 0 0 7px #fd63cf, 0 0 30px #fd63cf, 0 0 80px #fd63cf; }
+  color: #fd63cf;
+  font-size: 27px;
+  text-decoration: none; }
+  .contactame-metodo:hover {
+    color: #fd63cf;
+    transition: 0.5s;
+    text-shadow: 0 0 2px #f78ac9, 0 0 15px #f78ac9, 0 0 45px #f78ac9; }
 
 /*FIN PAGINA METODO*/
 /*DEFINO EL GRID DE LA PAGINA MEDIA*/
@@ -215,8 +227,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: 6rem;
-  margin-bottom: 5rem;
+  margin: 0;
   flex-direction: column;
   min-height: 70vh; }
 
@@ -291,116 +302,163 @@ body {
     box-shadow: 0 0 5px #dc89f5, 0 0 20px #dc89f5, 0 0 60px #dc89f5; }
 
 /*FIN DE LA PAGINA CONTACTO*/
-@media (max-width: 430px) {
-  .hola, .rabine, .galeria-imagenes, .head-contacto {
-    font-size: 20px; }
-  .nombre, .clases, .presentacion-acerca, .metodo-cuerpo {
-    font-size: 16px; }
-  .conoce-mas, .conoce-mas-acerca, .contactame-metodo, .ubicacion, .horario {
-    font-size: 11px; }
+@media (max-width: 320px) {
+  .logocb {
+    width: 200px; }
+  .myNav a {
+    font-size: 12px; }
+  .hola, .hola-acerca, .rabine, .galeria-imagenes, .head-contacto {
+    font-size: 18px; }
+  .nombre, .clases, .nombre-acerca, .presentacion-acerca, .metodo-cuerpo {
+    font-size: 12px; }
+  .conoce-mas, .conoce-mas-acerca, .contactame-metodo, .ubicacion, .horario, .copyright {
+    font-size: 10px; }
   .foto-index {
-    max-width: 18rem;
-    min-width: 18rem; }
+    max-width: 16rem;
+    min-width: 16rem; }
   .foto-acerca {
-    max-width: 18rem;
-    min-width: 18rem; }
+    max-width: 16rem;
+    min-width: 16rem; }
   .iconos i {
     color: #FFF;
     font-size: 30px;
     line-height: 30px;
     padding: 0.5rem; } }
 
-@media (min-width: 576px) {
-  .hola, .rabine, .galeria-imagenes, .head-contacto {
-    font-size: 25px; }
-  .nombre, .clases, .presentacion-acerca, .metodo-cuerpo {
+@media (max-width: 375px) {
+  .logocb {
+    width: 210px; }
+  .myNav a {
+    font-size: 14px; }
+  .hola, .hola-acerca, .rabine, .galeria-imagenes, .head-contacto {
     font-size: 20px; }
-  .conoce-mas, .conoce-mas-acerca, .contactame-metodo, .ubicacion, .horario {
-    font-size: 15px; }
+  .nombre, .clases, .nombre-acerca, .presentacion-acerca, .metodo-cuerpo {
+    font-size: 14px; }
+  .conoce-mas, .conoce-mas-acerca, .contactame-metodo, .ubicacion, .horario, .copyright {
+    font-size: 12px; }
   .foto-index {
-    max-width: 20rem;
-    min-width: 20rem; }
+    max-width: 17rem;
+    min-width: 17rem; }
+  .foto-acerca {
+    max-width: 17rem;
+    min-width: 17rem; }
+  .iconos i {
+    color: #FFF;
+    font-size: 32px;
+    line-height: 32px;
+    padding: 0.5rem; } }
+
+@media (min-width: 425px) {
+  .logocb {
+    width: 220px; }
+  .myNav a {
+    font-size: 16px; }
+  .hola, .hola-acerca, .rabine, .galeria-imagenes, .head-contacto {
+    font-size: 22px; }
+  .nombre, .clases, .nombre-acerca, .presentacion-acerca, .metodo-cuerpo {
+    font-size: 16px; }
+  .conoce-mas, .conoce-mas-acerca, .contactame-metodo, .ubicacion, .horario, .copyright {
+    font-size: 14px; }
+  .foto-index {
+    max-width: 18rem;
+    min-width: 18rem; }
   .foto-acerca {
     max-width: 18rem;
     min-width: 18rem; }
   .iconos i {
     color: #FFF;
-    font-size: 30px;
-    line-height: 30px;
-    padding: 0.8rem; } }
+    font-size: 34px;
+    line-height: 34px;
+    padding: 0.5rem; } }
 
-@media (min-width: 768px) {
-  .hola, .rabine, .galeria-imagenes, .head-contacto {
-    font-size: 30px; }
-  .nombre, .clases, .presentacion-acerca, .metodo-cuerpo {
-    font-size: 25px; }
-  .conoce-mas, .conoce-mas-acerca, .contactame-metodo, .ubicacion, .horario {
-    font-size: 20px; }
+@media (min-width: 576px) {
+  .logocb {
+    width: 240px; }
+  .myNav a {
+    font-size: 18px; }
+  .hola, .hola-acerca, .rabine, .galeria-imagenes, .head-contacto {
+    font-size: 24px; }
+  .nombre, .clases, .nombre-acerca, .presentacion-acerca, .metodo-cuerpo {
+    font-size: 18px; }
+  .conoce-mas, .conoce-mas-acerca, .contactame-metodo, .ubicacion, .horario, .copyright {
+    font-size: 16px; }
   .foto-index {
-    max-width: 25rem;
-    min-width: 25rem; }
-  .foto-acerca {
-    max-width: 20rem;
-    min-width: 20rem; }
-  .iconos i {
-    color: #FFF;
-    font-size: 40px;
-    line-height: 40px;
-    padding: 1rem; } }
-
-@media (min-width: 940px) {
-  .hola, .rabine, .galeria-imagenes, .head-contacto {
-    font-size: 35px; }
-  .nombre, .clases, .presentacion-acerca, .metodo-cuerpo {
-    font-size: 25px; }
-  .conoce-mas, .conoce-mas-acerca, .contactame-metodo, .ubicacion, .horario {
-    font-size: 20px; }
-  .foto-index {
-    max-width: 30rem;
-    min-width: 30rem; }
-  .foto-acerca {
-    max-width: 20rem;
-    min-width: 20rem; }
-  .iconos i {
-    color: #FFF;
-    font-size: 50px;
-    line-height: 50px;
-    padding: 1.2rem; } }
-
-@media (min-width: 1024px) {
-  .hola, .rabine, .galeria-imagenes, .head-contacto {
-    font-size: 35px; }
-  .nombre, .clases, .presentacion-acerca, .metodo-cuerpo {
-    font-size: 25px; }
-  .conoce-mas, .conoce-mas-acerca, .contactame-metodo, .ubicacion, .horario {
-    font-size: 20px; }
-  .foto-index {
-    max-width: 34rem;
-    min-width: 34rem; }
+    max-width: 22rem;
+    min-width: 22rem; }
   .foto-acerca {
     max-width: 22rem;
     min-width: 22rem; }
   .iconos i {
     color: #FFF;
-    font-size: 60px;
-    line-height: 60px;
+    font-size: 36px;
+    line-height: 36px;
+    padding: 0.5rem; } }
+
+@media (min-width: 768px) {
+  .logocb {
+    width: 280px; }
+  .myNav a {
+    font-size: 18px; }
+  .hola, .hola-acerca, .rabine, .galeria-imagenes, .head-contacto {
+    font-size: 24px; }
+  .nombre, .clases, .nombre-acerca, .presentacion-acerca, .metodo-cuerpo {
+    font-size: 18px; }
+  .conoce-mas, .conoce-mas-acerca, .contactame-metodo, .ubicacion, .horario, .copyright {
+    font-size: 16px; }
+  .foto-index {
+    max-width: 26rem;
+    min-width: 26rem; }
+  .foto-acerca {
+    max-width: 26rem;
+    min-width: 26rem; }
+  .iconos i {
+    color: #FFF;
+    font-size: 40px;
+    line-height: 40px;
+    padding: 0.8rem; } }
+
+@media (min-width: 1024px) {
+  .logocb {
+    width: 280px; }
+  .myNav a {
+    font-size: 19px; }
+  .hola, .hola-acerca, .rabine, .galeria-imagenes, .head-contacto {
+    font-size: 25px; }
+  .nombre, .clases, .nombre-acerca, .presentacion-acerca, .metodo-cuerpo {
+    font-size: 19px; }
+  .conoce-mas, .conoce-mas-acerca, .contactame-metodo, .ubicacion, .horario, .copyright {
+    font-size: 17px; }
+  .foto-index {
+    max-width: 28rem;
+    min-width: 28rem; }
+  .foto-acerca {
+    max-width: 24rem;
+    min-width: 24rem; }
+  .iconos i {
+    color: #FFF;
+    font-size: 45px;
+    line-height: 45px;
     padding: 1.5rem; } }
 
 @media (min-width: 1440px) {
-  .hola, .rabine, .galeria-imagenes, .head-contacto {
-    font-size: 40px; }
-  .nombre, .clases, .presentacion-acerca, .metodo-cuerpo {
+  .logocb {
+    width: 300px; }
+  .myNav a {
+    font-size: 24px; }
+  .hola, .hola-acerca, .rabine, .galeria-imagenes, .head-contacto {
     font-size: 30px; }
-  .conoce-mas, .conoce-mas-acerca, .contactame-metodo, .ubicacion, .horario {
-    font-size: 25px; }
+  .nombre, .clases, .nombre-acerca, .presentacion-acerca, .metodo-cuerpo {
+    font-size: 24px; }
+  .conoce-mas, .conoce-mas-acerca, .contactame-metodo, .ubicacion, .horario, .copyright {
+    font-size: 22px; }
   .foto-index {
-    max-width: 37rem;
-    min-width: 37rem; }
+    max-width: 34rem;
+    min-width: 34rem; }
   .foto-acerca {
-    max-width: 33rem;
-    min-width: 33rem; }
+    max-width: 34rem;
+    min-width: 34rem; }
   .iconos i {
     color: #FFF;
-    font-size: 60px;
-    line-height: 60px;
+    font-size: 55px;
+    line-height: 55px;
     padding: 1.5rem; } }

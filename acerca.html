@@ -37,93 +37,89 @@
     <title>Acerca de mí | CB COACH DE CANTO</title>
   </head>
 
-  <body>
-    <!--INICIO HEADER-->
+ <!--INICIO BODY CON EL CONTAINER FLUID-->
 
-    <header>
-      <nav class="navbar navbar-expand-lg barra-navegacion">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html"
-            ><img class="logocb" src="./fotos/cb-coach-de-canto.png" alt="LogoCB"
-          /></a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div
-            class="collapse navbar-collapse"
-            id="navbarNavAltMarkup"
-            style="flex-grow: initial"
-          >
-            <div class="navbar-nav">
-              <a class="nav-link" href="acerca.html">Acerca de mí</a>
-              <a class="nav-link" href="metodo.html">Mi método</a>
-              <a class="nav-link" href="media.html">Media</a>
-              <a class="nav-link" href="contacto.html">Contacto</a>
-            </div>
+ <body class="container-fluid">
+    
+  <!--INICIO HEADER-->
+
+  <header class="row">
+    <nav class="navbar navbar-expand-lg barra-navegacion">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"
+          ><img class="logocb" src="./fotos/cb-coach-de-canto.png" alt="Logo CB"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse"
+          id="navbarNavAltMarkup"
+          style="flex-grow: initial"
+        >
+          <div class="navbar-nav myNav">
+            <a class="nav-link" href="./acerca.html">Acerca de mí</a>
+            <a class="nav-link" href="./metodo.html">Mi método</a>
+            <a class="nav-link" href="./media.html">Media</a>
+            <a class="nav-link" href="./contacto.html">Contacto</a>
           </div>
-        </div>
-      </nav>
-    </header>
-
-    <!--FIN DEL HEADER-->
-
-    <!--INICIO CONTAINER-FLUID PARA APLICAR EL SISTEMA GRID DE BOOSTRAP-->
-
-    <div class="container-fluid acerca">
-      <div class="row">
-        <div class="col-lg-7">
-          <div>
-            <p class="hola">¡Hola!</p></div>
-          <div class="presentacion-acerca">
-            <p>
-              Mi nombre es Cristina Barrozo y estoy muy entusiasmada por tu
-              interés en mis clases!
-            </p>
-            <p>
-              Debo decir que, desde pequeña, me he sentido atraída por la música
-              y el canto; siendo este medio mi catarsis para expresar emociones
-              y sentimientos.
-            </p>
-            <p>
-              Con el tiempo aprendí a disfrutar e interpretar todos los géneros
-              musicales, participando en coros de música Clásica, Popular y en
-              diversos ensambles de Folklore, Tango, Boleros, Rock, Blues, Soul,
-              Funk y Jazz, hasta la fecha.
-            </p>
-            <p>
-              Paralelamente, me incline por la docencia, comenzando a dictar
-              clases de inglés desde muy joven y luego completando la carrera de
-              canto de la Escuela de Música Popular de Ituzaingó.
-            </p>
-            <p>
-              Actualmente, me encuentro perfeccionandome en la carrera de canto
-              de Jazz en el Conservatorio de Arte Leopoldo Marechal.
-            </p>
-            <p>
-              En estos últimos diez años, me siento muy feliz de dar clases de
-              canto a todas las edades; guiando a mis alumnos al maravilloso
-              mundo de la música y enseñándoles a descubrir sus potenciales.
-            </p>
-          </div>
-          <div>
-            <a href="metodo.html" class="conoce-mas-acerca">¡CONOCE MAS!.</a>
-          </div>
-        </div>
-
-        <div class="col-lg-5">
-          <img class="foto-acerca" src="./fotos/foto-9.jpg" alt="" />
         </div>
       </div>
+    </nav>
+  </header>
 
-      <div class="row">
+  <!--FIN DEL HEADER-->
+
+  <!--INICIO DEL MAIN-->
+
+    <main class="row">
+
+        <div class="col-lg-7 order-2 order-lg-1 hero-index text-center">
+          
+          <p class="hola-acerca">¡Hola!</p>
+          
+          <p class="nombre-acerca">
+              Mi nombre es CRISTINA BARROZO y soy profesora de canto de Jazz graduada en el 
+              Conservatorio de Arte Leopoldo Marechal!</p>
+          
+              <p class="presentacion-acerca">
+              En estos últimos diez años que he interpretando y perfeccionado los distintos estilos de canto, 
+              (partipando en coros de música Clásica, Popular, ensambles de Folklore, Tango, Boleros, Rock, Blues, 
+              Soul, Funk y Jazz) me di cuenta de la inmensa felicidad que me brinda el poder dar clases de
+              canto a personas de todas las edades; guiando a mis alumnos al maravilloso mundo de la música y 
+              enseñándoles a descubrir sus potenciales.
+          </p>
+          
+          </div>
+          
+        <div class="col-lg-5 order-1 order-lg-2">
+          <img class="foto-acerca" src="./fotos/foto-9.jpg" alt="Foto CB Acerca" />
+        </div>
+    </main>
+
+    <!--FIN DEL MAIN-->
+
+    <!--INICIO DEL ASIDE-->
+      
+    <aside class="row">
+        <div class="col-lg-12 aside-acerca">
+        <a href="metodo.html" class="conoce-mas-acerca text-center">¡CONOCE MAS!.</a>
+      </div>
+    </aside>
+
+      <!--FIN DEL ASIDE-->
+
+      <!--INICIO DEL FOOTER-->
+    
+      <footer class="row">
         <div class="col-lg-12">
           <ul class="iconos">
             <li>
@@ -142,9 +138,10 @@
             <p class="copyright">2021, Cristina Barrozo, Vocal Coach. All rights reserved.</p>
           </div>
         </div>
-      </div>
-    </div>
-    <!--FIN DEL CONTAINER-FLUID-->
+      </footer>
+    
+    <!--FIN DEL FOOTER-->
+
     <!--LINKS DE JS DE BOOSTRAP-->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
