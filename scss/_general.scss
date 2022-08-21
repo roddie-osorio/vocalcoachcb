@@ -37,20 +37,21 @@ body {
 
 
 .hero-index{
-	background-color:$colorPrincipal;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	@include caja-flex(flex, center, center);
 	flex-direction: column;
 	gap: 40px;
 	margin: 0;
+}
+
+.hero-index p{
+	margin-bottom: 0px;
 }
 
 .hola{
 	color:$colorSecundario;
     font-size: 37px;
 	font: bold;
-    font-weight: 500;
+    font-weight: 400;
     letter-spacing: 0.5px;
 	height: 40px;
 	
@@ -63,7 +64,6 @@ body {
 }
 
 .conoce-mas{
-	background-color:$colorPrincipal;
 	height: 40px;
 	color:$colorSecundario;
 	font-size: 22px;
@@ -77,16 +77,10 @@ body {
 
 
 .foto-index {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	@include caja-flex(flex, center, center);
 	max-width: 35rem;
     min-width: 35rem;
 	border-radius: 50%;
-}
-
-.hero-index p{
-	margin-bottom: 0px;
 }
 
 /*FIN DE LA SECCION HERO-INDEX*/
@@ -94,7 +88,6 @@ body {
 /*INCIO DE LA SECCION ASIDE DEL INDEX*/
 
 .aside-index, .clases{
-	background-color:$colorPrincipal;
 	height: 200px;
 	@include caja-flex(flex, center, center);
 	color:$colorSecundario;
@@ -113,7 +106,6 @@ body {
 /*INICIO FOOTER*/
 
 .fotoindex {
-	background-color:$colorPrincipal;
 	@include caja-flex(flex, center, center);
 	flex-direction: column;
 	
@@ -136,12 +128,8 @@ body {
 
 /*INICIO PAGINA ACERCA*/
 
-
 .hero-acerca{
-	background-color:$colorPrincipal;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	@include caja-flex(flex, center, center);
 	flex-direction: column;
 	gap: 40px;
 	margin: 0;
@@ -164,7 +152,6 @@ body {
 
 .conoce-mas-acerca {
 	margin-top: 30px;
-	background-color:$colorPrincipal;
 	height: 40px;
 	color:$colorSecundario;
 	font-size: 22px;
@@ -177,9 +164,7 @@ body {
 }
 
 .col-lg-5{
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	@include caja-flex(flex, center, center);
 }
 
 .foto-acerca {
@@ -189,7 +174,6 @@ body {
 }
 
 .aside-acerca, .conoce-mas.acerca{
-	background-color:$colorPrincipal;
 	height: 200px;
 	@include caja-flex(flex, center, center);
 	color:$colorSecundario;
@@ -207,17 +191,19 @@ body {
 
 /*INICIO PAGINA METODO*/
 
-.col-lg-12 {
-	background-color:$colorPrincipal;
+.hero-metodo{
 	@include caja-flex(flex, center, center);
 	flex-direction: column;
+	gap: 40px;
+	margin: 0;
 	height: 100%;
 }
+
 .rabine {
 	color:$colorSecundario;
     font-size: 37px;
 	font: bold;
-    font-weight: 500;
+    font-weight: 300;
     letter-spacing: 0.5px;
 	height: 40px;
 	
@@ -229,7 +215,6 @@ body {
 }
 
 .contactame-metodo {
-	background-color:$colorPrincipal;
 	height: 200px;
 	@include caja-flex(flex, center, center);
 	color:$colorSecundario;
@@ -245,7 +230,16 @@ body {
 
 /*FIN PAGINA METODO*/
 
-/*DEFINO EL GRID DE LA PAGINA MEDIA*/
+/*INICIO DE LA PAGINA MEDIA*/
+
+.hero-media{
+	@include caja-flex(flex, center, center);
+	flex-direction: column;
+	gap: 40px;
+	margin: 0;
+	height: 100%;
+}
+
 .imagenes {
 	margin-top: 100px;
 	color:$colorSecundario;
@@ -256,10 +250,7 @@ body {
 	@include caja-flex(flex, center, center);
 }
 .galeria {
-	color:$colorPrincipal;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+	@include caja-flex(flex, center, center);
 	
 }
 /*FIN LA PAGINA MEDIA*/
@@ -268,11 +259,9 @@ body {
 
 
 .pagina-contacto {
-	display: flex;
+	@include caja-flex(flex, center, center);
 	flex-direction: column;
-	justify-content: center;
 	margin: 0;
-	flex-direction: column;
 	min-height: 70vh;
 }
 .head-contacto {
@@ -333,8 +322,7 @@ body {
 	width: 120px;
 	height: 40px;
 	font-size: 20px;
-	font-weight: 600;
-	text-transform: uppercase;
+	font-weight: 300;
 	letter-spacing: 2px;
 	border-radius: 5px;
 	transition: 0.5s;

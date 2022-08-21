@@ -10,15 +10,11 @@
     />
     <meta
       name="description"
-      content=" Pagina de Contacto | Cristina Barrozo | Clases de canto presencial y online para todas las edades (adultos y niños)"
+      content="Página Principal | Cristina Barrozo | Clases de canto presencial y online para todas las edades (adultos y niños)"
     />
-    <link rel="shortcut icon" href="/imagenes/imagenes/logos/Logo.ico" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Montserrat:wght@100;300;400;500&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@700&display=swap"
-      rel="stylesheet"
-    />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
@@ -37,14 +33,17 @@
     <title>Contacto | CB COACH DE CANTO</title>
   </head>
 
-  <body>
+  <!--INICIO BODY CON EL CONTAINER FLUID-->
+
+  <body class="container-fluid">
+    
     <!--INICIO HEADER-->
 
-    <header>
+    <header class="row">
       <nav class="navbar navbar-expand-lg barra-navegacion">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html"
-            ><img class="logocb" src="./fotos/cb-coach-de-canto.png" alt="LogoCB"
+            ><img class="logocb" src="./fotos/cb-coach-de-canto.png" alt="Logo CB"
           /></a>
           <button
             class="navbar-toggler"
@@ -62,11 +61,11 @@
             id="navbarNavAltMarkup"
             style="flex-grow: initial"
           >
-            <div class="navbar-nav">
-              <a class="nav-link" href="acerca.html">Acerca de mí</a>
-              <a class="nav-link" href="metodo.html">Mi método</a>
-              <a class="nav-link" href="media.html">Media</a>
-              <a class="nav-link" href="contacto.html">Contacto</a>
+            <div class="navbar-nav myNav">
+              <a class="nav-link" href="./acerca.html">Acerca de mí</a>
+              <a class="nav-link" href="./metodo.html">Mi método</a>
+              <a class="nav-link" href="./media.html">Media</a>
+              <a class="nav-link" href="./contacto.html">Contacto</a>
             </div>
           </div>
         </div>
@@ -75,97 +74,94 @@
 
     <!--FIN DEL HEADER-->
 
-    <div class="container-fluid contacto">
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="pagina-contacto">
-            <div><p class="head-contacto">Contacto</p></div>
-            <div class="formulario-contacto">
-              <form
-                class="contacto"
-                action="mariajazzyblues@gmail.com"
-                method="post"
-              >
-                <input
-                  type="text"
-                  name="nombre"
-                  class="text-box"
-                  placeholder="Nombre"
-                  required
-                />
+    <!--INICIO DEL MAIN-->
 
-                <input
-                  type="email"
-                  name="email"
-                  class="text-box"
-                  placeholder="Email"
-                  required
-                />
-
-                <textarea
-                  name="message"
-                  rows="15"
-                  class="text-message"
-                  placeholder="Tu mensaje"
-                  required
-                ></textarea>
-
-                <input type="submit" class="send-btn" value="Enviar" />
-              </form>
-            </div>
-          </div>
-        </div>
+    
+    <main class="row">
+      <div class="col-lg-10 offset-1 text-center pagina-contacto">
+        <p class="head-contacto">Contacto</p>
+        <div class="formulario-contacto">
+          <form
+          class="contacto"
+          action="mariajazzyblues@gmail.com"
+          method="post"
+          >
+          <input
+          type="text"
+          name="nombre"
+          class="text-box"
+          placeholder="Nombre"
+          required
+          />
+          <input
+          type="email"
+          name="email"
+          class="text-box"
+          placeholder="Email"
+          required
+          />
+          <textarea
+          name="message"
+          rows="15"
+          class="text-message"
+          placeholder="Tu mensaje"
+          required
+          ></textarea>
+          <input type="submit" class="send-btn" value="Enviar" />
+        </form>
       </div>
-      <div class="row">
-        <div class="col-lg-12">
-          <div>
-            <p class="ubicacion">
-              Ituzaingó, Pcia. de Bs. As. | Cel.: +54911 5907-5591 | Mail:
-              mariajazzyblues@gmail.com
-            </p>
-          </div>
+    </main>
 
-          <div>
-            <p class="horario">Lu a Vie 2.00 pm-8.00 pm / Sa 10.00 am-5.00 pm</p>
-          </div>
 
-          <ul class="iconos">
-            <li>
-              <a
-                href="https://www.facebook.com/Clases-de-canto-funcional-Cristina-Barrozo-107911024764130/"
-                ><i class="fa-brands fa-facebook"></i
-              ></a>
+<!--FIN DEL MAIN-->
 
-              <a href="https://instagram.com/criskells?igshid=YmMyMTA2M2Y="
-                ><i class="fa-brands fa-instagram"></i
-              ></a>
+    <!--INICIO DEL FOOTER-->
 
-              <a
-                href="https://api.whatsapp.com/send?phone=5491159075591&text=Hola!%20Contactame%20para%20ser%20tu%20Coach%20de%20Canto!"
-                ><i class="fa-brands fa-whatsapp"></i
-              ></a>
-            </li>
-          </ul>
+    <footer class="row">
+      <div class="col-lg-10 offset-1 text-center">
+        <p class="ubicacion text-center">
+          Ituzaingó, Pcia. de Bs. As. | Cel.: +54911 5907-5591 | Mail:
+          mariajazzyblues@gmail.com
+        </p>
+        <p class="horario text-center">Lu a Vie 2.00 pm-8.00 pm / Sa 10.00 am-5.00 pm</p>
+        <ul class="iconos">
+          <li>
+            <a
+              href="https://www.facebook.com/Clases-de-canto-funcional-Cristina-Barrozo-107911024764130/"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
 
-          <div>
-            <p class="copyright">2021, Cristina Barrozo, Vocal Coach. All rights reserved.</p>
-          </div>
+            <a href="https://instagram.com/criskells?igshid=YmMyMTA2M2Y="
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+
+            <a
+              href="https://api.whatsapp.com/send?phone=5491159075591&text=Hola!%20Contactame%20para%20ser%20tu%20Coach%20de%20Canto!"
+              ><i class="fa-brands fa-whatsapp"></i
+            ></a>
+          </li>
+        </ul>
+
+          <p class="copyright">2021, Cristina Barrozo, Vocal Coach. All rights reserved.</p>
         </div>
-      </div>
-    </div>
-    <!--FIN DEL CONTAINER-FLUID-->
-    <!--LINKS DE JS DE BOOSTRAP-->
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
-      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
-      integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+      </footer>
+  
+  <!--FIN DEL FOOTER-->
+  
+  <!--LINKS DE JS DE BOOSTRAP-->
+  
+  <script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+    integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+    crossorigin="anonymous"
+  ></script>
+</body>
 
-  <!--FIN BODY-->
+<!--FIN BODY-->
+
 </html>

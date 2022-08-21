@@ -10,27 +10,33 @@
         }
     }
 
-    .hola, .hola-acerca, .rabine, .galeria-imagenes, .head-contacto{
+    .hola, .hola-acerca, .rabine, .imagenes, .head-contacto{
         font-size: 18px;
+        font-weight: 300;
         
     }
     
-    .nombre, .clases, .nombre-acerca, .presentacion-acerca, .metodo-cuerpo {
+    .nombre, .clases, .nombre-acerca, .presentacion-acerca, .metodo-cuerpo, .ubicacion {
         font-size: 12px;
         
     }
-    .conoce-mas, .conoce-mas-acerca, .contactame-metodo, .ubicacion, .horario, .copyright{
+    .conoce-mas, .conoce-mas-acerca, .contactame-metodo, .horario, .copyright{
         font-size: 10px;
     }
         
-    .foto-index{
+    .foto-index, .foto-acerca{
         max-width: 16rem;
         min-width: 16rem;
     }
     
-    .foto-acerca{
-        max-width: 16rem;
-        min-width: 16rem;
+    .text-box, .text-message,{
+        width: 60%;
+        font-size: 12px;       
+    }
+
+    .send-btn{
+        font-size: 14px;
+        font-weight: 200;
     }
 
     .iconos{
@@ -55,27 +61,33 @@
         }
     }
 
-    .hola, .hola-acerca, .rabine, .galeria-imagenes, .head-contacto{
+    .hola, .hola-acerca, .rabine, .imagenes, .head-contacto{
         font-size: 20px;
+        font-weight: 300;
         
     }
     
-    .nombre, .clases, .nombre-acerca, .presentacion-acerca, .metodo-cuerpo {
+    .nombre, .clases, .nombre-acerca, .presentacion-acerca, .metodo-cuerpo, .ubicacion {
         font-size: 14px;
         
     }
-    .conoce-mas, .conoce-mas-acerca, .contactame-metodo, .ubicacion, .horario, .copyright{
+    .conoce-mas, .conoce-mas-acerca, .contactame-metodo, .horario, .copyright{
         font-size: 12px;
     }
     
-    .foto-index{
+    .foto-index, .foto-acerca{
         max-width: 17rem;
         min-width: 17rem;
     }
     
-    .foto-acerca{
-        max-width: 17rem;
-        min-width: 17rem;
+    .text-box, .text-message,{
+        width: 60%; 
+        font-size: 14px;      
+    }
+
+    .send-btn{
+        font-size: 16px;
+        font-weight: 200;
     }
 
     .iconos{
@@ -102,27 +114,33 @@
         }
     }
 
-    .hola, .hola-acerca, .rabine, .galeria-imagenes, .head-contacto{
+    .hola, .hola-acerca, .rabine, .imagenes, .head-contacto{
         font-size: 22px;
+        font-weight: 300;
         
     }
     
-    .nombre, .clases, .nombre-acerca, .presentacion-acerca, .metodo-cuerpo {
+    .nombre, .clases, .nombre-acerca, .presentacion-acerca, .metodo-cuerpo, .ubicacion {
         font-size: 16px;
         
     }
-    .conoce-mas, .conoce-mas-acerca, .contactame-metodo, .ubicacion, .horario, .copyright{
+    .conoce-mas, .conoce-mas-acerca, .contactame-metodo, .horario, .copyright{
         font-size: 14px;
     }
     
-    .foto-index{
+    .foto-index, .foto-acerca{
         max-width: 18rem;
         min-width: 18rem;
     }
     
-    .foto-acerca{
-        max-width: 18rem;
-        min-width: 18rem;
+    .text-box, .text-message,{
+        width: 60%; 
+        font-size: 16px;      
+    }
+
+    .send-btn{
+        font-size: 18px;
+        font-weight: 200;
     }
 
     .iconos{
@@ -147,27 +165,33 @@
         }
     }
 
-    .hola, .hola-acerca, .rabine, .galeria-imagenes, .head-contacto{
+    .hola, .hola-acerca, .rabine, .imagenes, .head-contacto{
         font-size: 24px;
+        font-weight: 300;
         
     }
     
-    .nombre, .clases, .nombre-acerca, .presentacion-acerca, .metodo-cuerpo {
+    .nombre, .clases, .nombre-acerca, .presentacion-acerca, .metodo-cuerpo, .ubicacion {
         font-size: 18px;
         
     }
-    .conoce-mas, .conoce-mas-acerca, .contactame-metodo, .ubicacion, .horario, .copyright{
+    .conoce-mas, .conoce-mas-acerca, .contactame-metodo, .horario, .copyright{
         font-size: 16px;
     }
    
-    .foto-index{
+    .foto-index, .foto-acerca{
         max-width: 22rem;
         min-width: 22rem;
     }
     
-    .foto-acerca{
-        max-width: 22rem;
-        min-width: 22rem;
+    .text-box, .text-message,{
+        width: 70%;
+        font-size: 18px;       
+    }
+
+    .send-btn{
+        font-size: 20px;
+        font-weight: 300;
     }
 
     .iconos{
@@ -192,27 +216,33 @@
         }
     }
 
-    .hola, .hola-acerca, .rabine, .galeria-imagenes, .head-contacto{
+    .hola, .hola-acerca, .rabine, .imagenes, .head-contacto{
         font-size: 24px;
+        font-weight: 400;
         
     }
     
-    .nombre, .clases, .nombre-acerca, .presentacion-acerca, .metodo-cuerpo {
+    .nombre, .clases, .nombre-acerca, .presentacion-acerca, .metodo-cuerpo, .ubicacion {
         font-size: 18px;
         
     }
-    .conoce-mas, .conoce-mas-acerca, .contactame-metodo, .ubicacion, .horario, .copyright{
+    .conoce-mas, .conoce-mas-acerca, .contactame-metodo, .horario, .copyright{
         font-size: 16px;
     }
     
-    .foto-index{
+    .foto-index, .foto-acerca{
         max-width: 26rem;
         min-width: 26rem;
     }
     
-    .foto-acerca{
-        max-width: 26rem;
-        min-width: 26rem;
+    .text-box, .text-message,{
+        width: 80%;
+        font-size: 18px;       
+    }
+
+    .send-btn{
+        font-size: 20px;
+        font-weight: 300;
     }
 
     .iconos{
@@ -236,28 +266,34 @@
             font-size: 19px;
         }
     }
-    .hola, .hola-acerca, .rabine, .galeria-imagenes, .head-contacto{
+    .hola, .hola-acerca, .rabine, .imagenes, .head-contacto{
         font-size: 25px;
+        font-weight: 400;
         
     }
     
-    .nombre, .clases, .nombre-acerca, .presentacion-acerca, .metodo-cuerpo {
+    .nombre, .clases, .nombre-acerca, .presentacion-acerca, .metodo-cuerpo, .ubicacion {
         font-size: 19px;
         
     }
     
-    .conoce-mas, .conoce-mas-acerca, .contactame-metodo, .ubicacion, .horario, .copyright{
+    .conoce-mas, .conoce-mas-acerca, .contactame-metodo, .horario, .copyright{
         font-size: 17px;
     }
 
-    .foto-index{
+    .foto-index, .foto-acerca{
         max-width: 28rem;
         min-width: 28rem;
     }
 
-    .foto-acerca{
-        max-width: 24rem;
-        min-width: 24rem;
+    .text-box, .text-message,{
+        width: 100%;
+        font-size: 19px;       
+    }
+
+    .send-btn{
+        font-size: 21px;
+        font-weight: 300;
     }
 
     .iconos {
@@ -281,28 +317,32 @@
             font-size: 24px;
         }
     }
-    .hola, .hola-acerca, .rabine, .galeria-imagenes, .head-contacto{
+    .hola, .hola-acerca, .rabine, .imagenes, .head-contacto{
         font-size: 30px;
-        
+        font-weight: 400;
     }
     
-    .nombre, .clases, .nombre-acerca, .presentacion-acerca, .metodo-cuerpo {
+    .nombre, .clases, .nombre-acerca, .presentacion-acerca, .metodo-cuerpo, .ubicacion {
         font-size: 24px;
-        
     }
     
-    .conoce-mas, .conoce-mas-acerca, .contactame-metodo, .ubicacion, .horario, .copyright{
+    .conoce-mas, .conoce-mas-acerca, .contactame-metodo, .horario, .copyright{
         font-size: 22px;
     }
 
-    .foto-index{
+    .foto-index, .foto-acerca{
         max-width: 34rem;
         min-width: 34rem;
     }
 
-    .foto-acerca{
-        max-width: 34rem;
-        min-width: 34rem;
+    .text-box, .text-message,{
+        width: 100%;
+        font-size: 24px;       
+    }
+
+    .send-btn{
+        font-size: 26px;
+        font-weight: 300;
     }
 
     .iconos {
