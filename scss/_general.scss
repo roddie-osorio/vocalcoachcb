@@ -174,7 +174,7 @@ body {
 }
 
 .aside-acerca, .conoce-mas.acerca{
-	/*height: 200px;
+	height: 200px;
 	@include caja-flex(flex, center, center);
 	color:$colorSecundario;
 	font-size: 27px;
@@ -183,8 +183,7 @@ body {
 		color:$colorSecundario;
 		transition: 0.5s;
 		text-shadow: 0 0 2px #f78ac9, 0 0 15px #f78ac9, 0 0 45px #f78ac9;
-	}*/
-	@extend .aside-index;
+	}
 }
 
 /*FIN PAGINA ACERCA*/
