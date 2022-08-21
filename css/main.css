@@ -318,7 +318,6 @@ body {
     max-width: 16rem;
     min-width: 16rem; }
   .text-box, .text-message {
-    width: 60%;
     font-size: 12px; }
   .send-btn {
     font-size: 14px;
@@ -345,7 +344,6 @@ body {
     max-width: 17rem;
     min-width: 17rem; }
   .text-box, .text-message {
-    width: 60%;
     font-size: 14px; }
   .send-btn {
     font-size: 16px;
@@ -372,7 +370,6 @@ body {
     max-width: 18rem;
     min-width: 18rem; }
   .text-box, .text-message {
-    width: 60%;
     font-size: 16px; }
   .send-btn {
     font-size: 18px;
@@ -399,7 +396,6 @@ body {
     max-width: 22rem;
     min-width: 22rem; }
   .text-box, .text-message {
-    width: 70%;
     font-size: 18px; }
   .send-btn {
     font-size: 20px;
@@ -426,7 +422,6 @@ body {
     max-width: 26rem;
     min-width: 26rem; }
   .text-box, .text-message {
-    width: 80%;
     font-size: 18px; }
   .send-btn {
     font-size: 20px;
@@ -453,7 +448,6 @@ body {
     max-width: 28rem;
     min-width: 28rem; }
   .text-box, .text-message {
-    width: 100%;
     font-size: 19px; }
   .send-btn {
     font-size: 21px;
